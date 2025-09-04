@@ -1,0 +1,22 @@
+@startuml
+!include <C4/C4_Container>
+
+title Диаграмма компонентов (C4 Level 3) для "Сервиса Ставок"
+
+Person(back_office_depo, "Сотрудник бэк-офиса")
+
+System_Boundary(bank_system, "IT-система банка 'Стандарт'") {
+    Container(rate_service_ui, "Rate Service UI", "React, SPA", "Веб-интерфейс для управления ставками")
+    Container(rate_service_api, "Rate Service API", "Java, Spring Boot", "Backend для управления ставками")
+    ContainerDb(rate_service_db, "Rate Service DB", "PostgreSQL", "Хранилище депозитных ставок")
+    
+}
+
+System_Ext(sftp_server, "SFTP Server", "Сервер партнёрского КЦ")
+
+Rel(back_office_depo, rate_service_ui, "Использует", "HTTPS")
+Rel(rate_service_ui, rate_service_api, "Вызывает API", "JSON/HTTP")
+Rel(rate_service_api, rate_service_db, "Читает/пишет", "JDBC")
+Rel(rate_service_api, sftp_server, "Выгружает файл", "SFTP")
+
+@enduml

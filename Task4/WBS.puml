@@ -1,0 +1,116 @@
+@startwbs
+title WBS for MVP Call Center Bets Handover
+
+<style>
+' Общие параметры диаграммы
+wbsDiagram {
+  LineColor #9A8CF0
+  LineThickness 1.2
+
+  title {
+    FontSize 18
+    FontColor #3B2E58
+    HorizontalAlignment center
+  }
+
+  ' Базовый стиль узлов
+  node {
+    BackgroundColor #F3E8FF
+    BorderColor #7C3AED
+    FontColor #2E1065
+    RoundCorner 12
+    Padding 10
+    Margin 4
+    LineThickness 1.2
+    Shadowing 0
+  }
+
+  ' Корневой узел (глубина 0) — чуть крупнее и светлее
+  :depth(0) {
+    BackgroundColor #EEE7FF
+    BorderColor #6D28D9
+    FontSize 16
+    RoundCorner 14
+  }
+
+  ' Эпики — холодные пурпурные тона без красных оттенков
+  .epic {
+    BackgroundColor #EDE9FE
+    BorderColor #7E57C2
+    FontColor #3F2B6F
+  }
+
+  ' Таски — более светлые/нейтральные фиолетово‑лиловые
+  .task {
+    BackgroundColor #F5F3FF
+    BorderColor #8B5CF6
+    FontColor #312E81
+  }
+}
+</style>
+
+* <&briefcase> MVP Call Center Bets Handover <<epic>>
+
+** <&briefcase> Implement Betting Service <<epic>>
+*** <&check> Design the service <<task>>
+**** <&check> Define service architecture <<task>>
+**** <&check> Define API specification <<task>>
+*** <&check> Set up infrastructure <<task>>
+**** <&check> Set up CI/CD <<task>>
+**** <&check> Provision environments <<task>>
+*** <&check> Develop database <<task>>
+**** <&check> Design table schema <<task>>
+**** <&check> Write migrations <<task>>
+*** <&check> Develop API <<task>>
+**** <&check> Implement CRUD <<task>>
+**** <&check> Implement bets retrieval endpoint <<task>>
+**** <&check> Configure authentication <<task>>
+*** <&check> Develop UI <<task>>
+**** <&check> Implement admin forms <<task>>
+**** <&check> Configure authentication <<task>>
+*** <&check> Develop exporter <<task>>
+**** <&check> Implement CSV generation <<task>>
+**** <&check> Implement SFTP upload <<task>>
+*** <&check> Testing <<task>>
+**** <&check> Write unit tests <<task>>
+**** <&check> Write integration tests <<task>>
+*** <&check> Prepare documentation <<task>>
+**** <&check> Generate API docs <<task>>
+**** <&check> Write deployment guide <<task>>
+
+** <&briefcase> Integrate Call Center System <<epic>>
+*** <&check> Analysis <<task>>
+**** <&check> Agree API contract <<task>>
+**** <&check> Plan required changes <<task>>
+*** <&check> Update UI <<task>>
+**** <&check> Implement bets display <<task>>
+*** <&check> Implement API client <<task>>
+**** <&check> Implement endpoint call <<task>>
+*** <&check> Testing <<task>>
+**** <&check> Test on Staging <<task>>
+
+** <&briefcase> Integrate Partner System <<epic>>
+*** <&check> Configure SFTP <<task>>
+**** <&check> Exchange keys <<task>>
+*** <&check> Implement import <<task>>
+**** <&check> Implement CSV parsing <<task>>
+**** <&check> Implement data loading <<task>>
+*** <&check> Testing <<task>>
+**** <&check> Run test cycles <<task>>
+
+** <&briefcase> Prepare Infrastructure <<epic>>
+*** <&check> Configure SFTP <<task>>
+**** <&check> Create users <<task>>
+*** <&check> Deploy service <<task>>
+**** <&check> Deploy to Production <<task>>
+*** <&check> Configure monitoring <<task>>
+**** <&check> Set up metrics collection <<task>>
+**** <&check> Set up alerts <<task>>
+
+legend right
+|Icon|Type|
+|<&briefcase>| Epic |
+|<&check>| Task |
+endlegend
+
+@endwbs
