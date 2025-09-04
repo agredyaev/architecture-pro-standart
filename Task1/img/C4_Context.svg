@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1180px" preserveAspectRatio="none" style="width:1228px;height:1180px;background:#FFFFFF;" version="1.1" viewBox="0 0 1228 1180" width="1228px" zoomAndPan="magnify"><defs/><g><rect height="26.2969" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="545" x="334.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="535" x="339.5" y="22.9951">Диаграмма контекста системы (C4 Level 1) для банка "Стандарт"</text><!--MD5=[4a65e84059005d12693a083370a06717]
+entity client--><g id="elem_client"><rect fill="#08427B" height="165.7813" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="211" x="7" y="476.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="84" y="497.9355">«person»</text><image height="48" width="48" x="88.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="500.7656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="67" x="79" y="563.6172">Клиент</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="110.5" y="580.3857"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="45" y="596.6826">Физическое лицо,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="17" y="612.9795">использующее продукты</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="91.5" y="629.2764">банка</text></g><!--MD5=[5a7b3fefae6148789985e656c1d00616]
+entity front_office--><g id="elem_front_office"><rect fill="#08427B" height="168.1094" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="214" x="253.5" y="475.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="332" y="496.9355">«person»</text><image height="48" width="48" x="336.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="499.7656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="99" x="308" y="562.6172">Сотрудник</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="123" x="299" y="581.2422">фронт-офиса</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="358.5" y="598.0107"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="267.5" y="614.3076">Обслуживает клиентов в</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="319.5" y="630.6045">отделении</text></g><!--MD5=[bd83dc3e786073f999bedfe207167036]
+entity back_office_depo--><g id="elem_back_office_depo"><rect fill="#08427B" height="186.7344" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="211" x="503" y="466.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="580" y="487.4355">«person»</text><image height="48" width="48" x="584.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="490.2656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="99" x="556" y="553.1172">Сотрудник</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="96" x="557.5" y="571.7422">бэк-офиса</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="103" x="557" y="590.3672">(депозиты)</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="606.5" y="607.1357"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="517" y="623.4326">Обрабатывает заявки по</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="568" y="639.7295">депозитам</text></g><!--MD5=[402d8cc03ca6b2ce8462ace87d75b964]
+entity back_office_credit--><g id="elem_back_office_credit"><rect fill="#08427B" height="168.1094" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="219" x="749" y="475.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="830" y="496.9355">«person»</text><image height="48" width="48" x="834.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="499.7656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="99" x="806" y="562.6172">Сотрудник</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="196" x="760.5" y="581.2422">бэк-офиса (кредиты)</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="856.5" y="598.0107"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="763" y="614.3076">Обрабатывает кредитные</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="834" y="630.6045">заявки</text></g><!--MD5=[6787e3af6aef8f27f48bbcdb4edc32a5]
+entity credit_dept--><g id="elem_credit_dept"><rect fill="#08427B" height="168.1094" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="199" x="509" y="44.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="580" y="65.4355">«person»</text><image height="48" width="48" x="584.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="68.2656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="99" x="556" y="131.1172">Сотрудник</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="179" x="519" y="149.7422">кредитного отдела</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="606.5" y="166.5107"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="534.5" y="182.8076">Рассчитывает спец.</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="530" y="199.1045">ставки по депозитам</text></g><!--MD5=[83d060e54a4d4517c070dba5b05cf650]
+entity call_center--><g id="elem_call_center"><rect fill="#08427B" height="149.4844" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="219" x="1003" y="485.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="1084" y="506.4355">«person»</text><image height="48" width="48" x="1088.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="509.2656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="199" x="1013" y="572.1172">Оператор кол-центра</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1110.5" y="588.8857"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="1019.5" y="605.1826">Консультирует клиентов</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="1064.5" y="621.4795">по телефону</text></g><!--MD5=[1211fcc9c1d83a08d3ac0e4ac1ea87af]
+entity bank_system--><g id="elem_bank_system"><rect fill="#1168BD" height="152.7031" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="206" x="505.5" y="784.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="580" y="805.4355">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="157" x="527" y="823.1172">IT-система банка</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="95" x="561" y="841.7422">'Стандарт'</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="606.5" y="858.5107"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="525" y="874.8076">Включает в себя Сайт,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="515.5" y="891.1045">Интернет-банк, Систему</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="531" y="907.4014">КЦ, АБС, Кредитный</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="553.5" y="923.6982">конвейер и др.</text></g><!--MD5=[827bd56949eabd395be8ee6788daf7d6]
+entity bki--><g id="elem_bki"><rect fill="#999999" height="120.1094" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="196" x="281.5" y="1054.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="115" x="322" y="1075.4355">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="157" x="298" y="1093.1172">Бюро кредитных</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="74" x="342.5" y="1111.7422">историй</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="377.5" y="1128.5107"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="295.5" y="1144.8076">Поставщик кредитной</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="311.5" y="1161.1045">истории клиентов</text></g><!--MD5=[a0d46f328d59bd278817c0c480d33714]
+entity telecom--><g id="elem_telecom"><rect fill="#999999" height="101.4844" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="192" x="512.5" y="1063.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="115" x="551" y="1084.9355">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="172" x="522.5" y="1102.6172">Телеком-оператор</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="606.5" y="1119.3857"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="546" y="1135.6826">Поставщик услуг</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="526" y="1151.9795">СМС-информирования</text></g><!--MD5=[795e2d6eb2a13c65e10487aecf3b29fa]
+entity partner_cc--><g id="elem_partner_cc"><rect fill="#999999" height="120.1094" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="208" x="739.5" y="1054.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="115" x="786" y="1075.4355">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="119" x="781" y="1093.1172">Партнёрский</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="95" x="796" y="1111.7422">кол-центр</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="841.5" y="1128.5107"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="753.5" y="1144.8076">Внешний кол-центр для</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="759.5" y="1161.1045">обработки обращений</text></g><!--MD5=[7b1ba8f2413a70bf47bd024b38ff9b23]
+entity manual_rate_process--><g id="elem_manual_rate_process"><rect fill="#999999" height="103.8125" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="174" x="521.5" y="287.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="115" x="551" y="308.4355">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="148" x="531.5" y="326.1172">Ручной процесс</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="139" x="539" y="344.7422">расчета ставок</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="606.5" y="361.5107"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="570.5" y="377.8076">Excel, Email</text></g><!--MD5=[28314288492f411ff4ea60fd4f85343c]
+link client to bank_system--><g id="link_client_bank_system"><path d="M166.03,643.2569 C194.71,681.7569 233.07,725.3669 276.5,754.2969 C343,798.6069 429.3,825.2769 497.24,840.7169 " fill="none" id="client-to-bank_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="505.43,842.5469,498.2749,837.8773,496.9688,843.7334,505.43,842.5469" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="82" x="297" y="695.4355">Использует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="110" x="283" y="709.4043">онлайн-каналы</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="83" x="296.5" y="723.373">(Сайт, ИБ) и</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="121" x="277.5" y="737.3418">обслуживается в</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="77" x="301.5" y="751.3105">отделении</text></g><!--MD5=[f1a2ab6df427d19d3cac500a53aad7c0]
+link front_office to bank_system--><g id="link_front_office_bank_system"><path d="M390.76,643.9669 C406.66,680.3969 428.68,722.0869 456.5,754.2969 C468.81,768.5469 483.45,781.8069 498.71,793.7769 " fill="none" id="front_office-to-bank_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="505.29,798.8269,500.7726,791.5748,497.118,796.3333,505.29,798.8269" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="84" x="484.5" y="716.4355">Оформляет</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="142" x="457.5" y="730.4043">продукты клиентам</text></g><!--MD5=[9dbb766caf6396dfef3ea94952435858]
+link back_office_depo to bank_system--><g id="link_back_office_depo_bank_system"><path d="M608.5,653.3569 C608.5,692.5869 608.5,737.9669 608.5,776.1669 " fill="none" id="back_office_depo-to-bank_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="608.5,784.2069,611.5,776.2069,605.5,776.2069,608.5,784.2069" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="105" x="624" y="716.4355">Обрабатывает</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="138" x="609.5" y="730.4043">депозитные заявки</text></g><!--MD5=[39cb19dfb41491ad7e2b238d05d382f5]
+link back_office_credit to bank_system--><g id="link_back_office_credit_bank_system"><path d="M825.01,644.2269 C807.92,680.4969 784.74,721.9869 756.5,754.2969 C745.15,767.2769 731.91,779.5169 718.1,790.7569 " fill="none" id="back_office_credit-to-bank_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="711.71,795.8369,719.8325,793.1864,716.087,788.4991,711.71,795.8369" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="105" x="815.5" y="716.4355">Обрабатывает</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="131" x="804.5" y="730.4043">кредитные заявки</text></g><!--MD5=[8bb012296e1549be87542623cce432a9]
+link call_center to bank_system--><g id="link_call_center_bank_system"><path d="M1063.87,634.6169 C1033.8,675.0869 991.95,723.2069 944.5,754.2969 C876.54,798.8269 788.61,825.5469 719.74,840.9569 " fill="none" id="call_center-to-bank_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="711.87,842.6869,720.327,843.9029,719.0413,838.0423,711.87,842.6869" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="96" x="1023.5" y="716.4355">Регистрирует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="81" x="1033" y="730.4043">обращения</text></g><!--MD5=[3af04ef4472f9483acdbcc8d58fefa0b]
+link credit_dept to manual_rate_process--><g id="link_credit_dept_manual_rate_process"><path d="M608.5,212.4969 C608.5,234.8069 608.5,258.4669 608.5,279.1869 " fill="none" id="credit_dept-to-manual_rate_process" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="608.5,287.2669,611.5,279.2669,605.5,279.2669,608.5,287.2669" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="150" x="609.5" y="254.4355">Рассчитывает ставки</text></g><!--MD5=[fc2b3fa0297eca527befaa4d9f423bb3]
+link manual_rate_process to back_office_depo--><g id="link_manual_rate_process_back_office_depo"><path d="M608.5,391.5269 C608.5,411.3869 608.5,434.8469 608.5,457.8169 " fill="none" id="manual_rate_process-to-back_office_depo" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="608.5,465.9169,611.5,457.9169,605.5,457.9169,608.5,465.9169" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="123" x="609.5" y="433.4355">Передает ставки</text></g><!--MD5=[6253e53e4dc409e5ebf6c80f119c3999]
+link bank_system to bki--><g id="link_bank_system_bki"><path d="M505.25,922.6069 C487.37,935.9269 469.92,950.9769 455.5,967.2969 C435.01,990.4969 418.25,1020.1969 405.74,1046.7469 " fill="none" id="bank_system-to-bki" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="402.32,1054.1469,408.3874,1048.1313,402.9358,1045.6251,402.32,1054.1469" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="98" x="477" y="986.4355">Запрашивает</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="143" x="456.5" y="1000.4043">кредитную историю</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="64" x="496" y="1014.373">[REST API]</text></g><!--MD5=[b98c3d66011eeb814dc78cc5ffb7747b]
+link bank_system to telecom--><g id="link_bank_system_telecom"><path d="M608.5,937.5969 C608.5,975.3569 608.5,1020.2869 608.5,1055.2669 " fill="none" id="bank_system-to-telecom" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="608.5,1063.4769,611.5,1055.4769,605.5,1055.4769,608.5,1063.4769" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="85" x="630.5" y="986.4355">Отправляет</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="131" x="609.5" y="1000.4043">СМС-уведомления</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="42" x="654" y="1014.373">[SMPP]</text></g><!--MD5=[12f0c7038f06f5499c3aa2081c371ab8]
+link bank_system to partner_cc--><g id="link_bank_system_partner_cc"><path d="M711.57,932.0269 C724.99,943.1069 738.04,954.9969 749.5,967.2969 C771.67,991.0869 791.84,1020.7469 807.77,1047.1069 " fill="none" id="bank_system-to-partner_cc" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="811.94,1054.0869,810.4171,1045.6797,805.2646,1048.7541,811.94,1054.0869" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="809" y="979.4355">Управляет</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="72" x="811" y="993.4043">внешними</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="107" x="793.5" y="1007.373">кампаниями по</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="57" x="820.5" y="1021.3418">обзвону</text></g><!--MD5=[0221e4184231d89310b75adc9d23e778]
+@startuml
+!include <C4/C4_Context>
+
+title Диаграмма контекста системы (C4 Level 1) для банка "Стандарт"
+
+' - - - Пользователи - - -
+Person(client, "Клиент", "Физическое лицо, использующее продукты банка")
+Person(front_office, "Сотрудник фронт-офиса", "Обслуживает клиентов в отделении")
+Person(back_office_depo, "Сотрудник бэк-офиса (депозиты)", "Обрабатывает заявки по депозитам")
+Person(back_office_credit, "Сотрудник бэк-офиса (кредиты)", "Обрабатывает кредитные заявки")
+Person(credit_dept, "Сотрудник кредитного отдела", "Рассчитывает спец. ставки по депозитам")
+Person(call_center, "Оператор кол-центра", "Консультирует клиентов по телефону")
+
+' - - - Система - - -
+System(bank_system, "IT-система банка 'Стандарт'", "Включает в себя Сайт, Интернет-банк, Систему КЦ, АБС, Кредитный конвейер и др.")
+
+' - - - Внешние системы - - -
+System_Ext(bki, "Бюро кредитных историй", "Поставщик кредитной истории клиентов")
+System_Ext(telecom, "Телеком-оператор", "Поставщик услуг СМС-информирования")
+System_Ext(partner_cc, "Партнёрский кол-центр", "Внешний кол-центр для обработки обращений")
+System_Ext(manual_rate_process, "Ручной процесс расчета ставок", "Excel, Email")
+
+' - - - Связи - - -
+Rel(client, bank_system, "Использует онлайн-каналы (Сайт, ИБ) и обслуживается в отделении")
+Rel(front_office, bank_system, "Оформляет продукты клиентам")
+Rel(back_office_depo, bank_system, "Обрабатывает депозитные заявки")
+Rel(back_office_credit, bank_system, "Обрабатывает кредитные заявки")
+Rel(call_center, bank_system, "Регистрирует обращения")
+
+Rel(credit_dept, manual_rate_process, "Рассчитывает ставки")
+Rel(manual_rate_process, back_office_depo, "Передает ставки")
+
+Rel(bank_system, bki, "Запрашивает кредитную историю", "REST API")
+Rel(bank_system, telecom, "Отправляет СМС-уведомления", "SMPP")
+Rel(bank_system, partner_cc, "Управляет внешними кампаниями по обзвону")
+
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+title Диаграмма контекста системы (C4 Level 1) для банка "Стандарт"
+
+rectangle "<$person>\n==Клиент\n\n Физическое лицо, использующее продукты банка" <<person>> as client 
+rectangle "<$person>\n==Сотрудник фронт-офиса\n\n Обслуживает клиентов в отделении" <<person>> as front_office 
+rectangle "<$person>\n==Сотрудник бэк-офиса (депозиты)\n\n Обрабатывает заявки по депозитам" <<person>> as back_office_depo 
+rectangle "<$person>\n==Сотрудник бэк-офиса (кредиты)\n\n Обрабатывает кредитные заявки" <<person>> as back_office_credit 
+rectangle "<$person>\n==Сотрудник кредитного отдела\n\n Рассчитывает спец. ставки по депозитам" <<person>> as credit_dept 
+rectangle "<$person>\n==Оператор кол-центра\n\n Консультирует клиентов по телефону" <<person>> as call_center 
+
+rectangle "==IT-система банка 'Стандарт'\n\n Включает в себя Сайт, Интернет-банк, Систему КЦ, АБС, Кредитный конвейер и др." <<system>> as bank_system 
+
+rectangle "==Бюро кредитных историй\n\n Поставщик кредитной истории клиентов" <<external_system>> as bki 
+rectangle "==Телеком-оператор\n\n Поставщик услуг СМС-информирования" <<external_system>> as telecom 
+rectangle "==Партнёрский кол-центр\n\n Внешний кол-центр для обработки обращений" <<external_system>> as partner_cc 
+rectangle "==Ручной процесс расчета ставок\n\n Excel, Email" <<external_system>> as manual_rate_process 
+
+client - ->> bank_system : **Использует онлайн-каналы (Сайт, ИБ) и обслуживается в отделении**
+front_office - ->> bank_system : **Оформляет продукты клиентам**
+back_office_depo - ->> bank_system : **Обрабатывает депозитные заявки**
+back_office_credit - ->> bank_system : **Обрабатывает кредитные заявки**
+call_center - ->> bank_system : **Регистрирует обращения**
+
+credit_dept - ->> manual_rate_process : **Рассчитывает ставки**
+manual_rate_process - ->> back_office_depo : **Передает ставки**
+
+bank_system - ->> bki : **Запрашивает кредитную историю**\n//<size:12>[REST API]</size>//
+bank_system - ->> telecom : **Отправляет СМС-уведомления**\n//<size:12>[SMPP]</size>//
+bank_system - ->> partner_cc : **Управляет внешними кампаниями по обзвону**
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 17:34:49 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

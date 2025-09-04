@@ -1,0 +1,84 @@
+@startuml
+!theme plain
+title Схема интеграции приложений банка "Стандарт" (AS-IS)
+
+package "Участники" {
+  actor "Клиент" as Client
+  actor "Сотрудник фронт-офиса" as FrontOffice
+  actor "Сотрудник бэк-офиса (депозиты)" as BackOfficeDepo
+  actor "Сотрудник бэк-офиса (кредиты)" as BackOfficeCredit
+  actor "Оператор кол-центра" as CallCenterAgent
+  actor "Сотрудник кред. отдела" as CreditDept
+}
+
+package "Ручные процессы" #LightGrey {
+  component "Excel-файл расчета ставок" as ExcelRates <<Manual>>
+}
+
+package "Системы банка 'Стандарт'" {
+  component "Сайт" as Website
+  component "Интернет-банк" as InternetBank <<Vendor>>
+  component "АБС" as ABS
+  component "Система кол-центра" as CallCenterSystem <<Vendor>>
+  component "Кредитный конвейер" as CreditConveyor <<Vendor>>
+  component "Система скоринга" as ScoringSystem
+}
+
+package "Внешние системы" {
+  component "Бюро кредитных историй" as BKI
+  component "Телеком-оператор (СМС-шлюз)" as Telecom
+  component "Система партнёрского КЦ" as PartnerCCSystem <<External>>
+}
+
+' --- Связи участников с системами ---
+Client --> Website : Просмотр информации, подача заявки
+Client --> InternetBank : Проведение платежей, открытие счетов
+FrontOffice --> ABS : Работа с заявками и договорами
+BackOfficeDepo --> ABS : Работа с заявками по депозитам
+BackOfficeCredit --> CreditConveyor : Обработка кредитных заявок
+CallCenterAgent --> CallCenterSystem : Прием звонков, создание обращений
+
+' --- Связи между системами ---
+' Проблемная интеграция, выделена цветом
+InternetBank -[#red,bold]-> ABS : **Риск!** Прямой доступ к БД\n(чтение/запись в таблицы счетов)
+note on link
+  **Безопасность:** Критическая уязвимость (SQL Injection, обход бизнес-логики)
+  **Контракт:** Отсутствует, неформализованные SQL-запросы
+end note
+
+' Пакетные интеграции (узкие места)
+ABS ..> CreditConveyor : **Пакетная выгрузка заявок (раз в сутки)**\n(DB Link)
+ABS ..> ScoringSystem : **Пакетная выгрузка данных для модели (раз в сутки)**\n(ETL)
+
+' Стандартные интеграции
+Website -> CallCenterSystem : Передача данных заявки с сайта\n(REST API, JSON/HTTP)
+CallCenterSystem -> ABS : Передача данных обращения\n(ID клиента, тема)\n(REST API, JSON/HTTP)
+note on link
+  **Безопасность:** TLS
+end note
+ABS -> Telecom : Запрос на отправку СМС\n(SMPP)
+CreditConveyor -> ScoringSystem : Запрос скоринга по заявке\n(синхронный REST API)
+note on link
+  **Безопасность:** TLS, JWT
+  **Контракт:** OpenAPI
+end note
+ScoringSystem -> ABS : Запрос доп. данных клиента\n(синхронный REST API)
+note on link
+  **Безопасность:** TLS, JWT
+end note
+ScoringSystem -> BKI : Запрос кредитной истории\n(внешний REST API)
+note on link
+  **Безопасность:** TLS
+  **Контракт:** Спецификация БКИ
+end note
+
+' --- Ручные процессы (Ключевые "узкие места") ---
+CreditDept -[#orange,bold].> ABS : Ручной анализ данных клиента (через GUI)
+CreditDept -[#orange,bold].> ExcelRates : Ручной расчет ставок
+ExcelRates -[#orange,bold].> BackOfficeDepo : Передача по Email
+
+' --- Процесс открытия депозита (Ручные операции) ---
+FrontOffice -[#orange,bold].> BackOfficeDepo : Запрос ставки по Email
+BackOfficeDepo -> ABS : Ручной ввод ставки в заявку
+
+@enduml

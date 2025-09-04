@@ -1,0 +1,35 @@
+@startuml
+!include <C4/C4_Container>
+!include <C4/C4_Component>
+
+title Диаграмма компонентов (C4 Level 3) для Кредитного конвейера (v2.0)
+
+' --- Пользователи и внешние системы ---
+Person_Ext(back_office_credit, "Сотрудник бэк-офиса (кредиты)")
+Container_Ext(abs, "АБС")
+Container_Ext(scoring_system, "Система скоринга")
+
+' --- Контейнер Кредитного конвейера ---
+Container_Boundary(cc, "Кредитный конвейер (Camunda)") {
+    Component(webapp, "Веб-приложение Tasklist", "Java, Vaadin", "Пользовательский интерфейс для работы с задачами по заявкам")
+    Component(engine, "Движок процессов", "Java, Camunda BPMN", "Выполнение моделей бизнес-процессов, управление состоянием заявок")
+    Component(rest_api, "REST API", "Java, Spring Boot", "API для интеграции с другими системами")
+    Component(integration_abs, "Модуль интеграции с АБС", "Java", "Получение пакета заявок по DB Link")
+    
+    ' Исправлена СУБД на Oracle в соответствии с описанием
+    ContainerDb(db, "База данных", "Oracle", "Хранение состояний процессов, данных по заявкам")
+}
+
+' --- Связи ---
+Rel(back_office_credit, webapp, "Работает с заявками", "HTTPS")
+Rel(webapp, rest_api, "Отправляет команды", "JSON/HTTP")
+Rel(rest_api, engine, "Управляет процессами")
+
+Rel(engine, db, "Читает/пишет состояние")
+Rel(engine, integration_abs, "Использует для получения заявок")
+Rel(engine, rest_api, "Использует для вызова внешних систем")
+
+Rel_Back(integration_abs, abs, "Получает заявки (раз в сутки)", "DB Link")
+Rel(rest_api, scoring_system, "Запрашивает скоринг", "JSON/HTTP")
+
+@enduml

@@ -1,0 +1,34 @@
+@startuml
+!include <C4/C4_Container>
+!include <C4/C4_Component>
+
+title Диаграмма компонентов (C4 Level 3) для АБС "Стандарт"
+
+Container_Boundary(abs, "АБС (Автоматизированная Банковская Система)") {
+    Component(gui, "GUI Клиент", "Delphi", "Десктоп-клиент для сотрудников банка")
+
+    ContainerDb(db, "База данных", "Oracle") {
+        Component(plsql_api, "API на PL/SQL", "PL/SQL", "Процедуры для открытия счетов, расчета процентов, создания договоров")
+        Component(clients, "Модуль 'Клиенты'", "PL/SQL, Таблицы", "Ведение профилей клиентов, договоров")
+        Component(deposits, "Модуль 'Счета и Депозиты'", "PL/SQL, Таблицы", "Управление депозитными и текущими счетами")
+        Component(credits, "Модуль 'Кредиты'", "PL/SQL, Таблицы", "Управление кредитными договорами и заявками")
+        Component(integration, "Модуль 'Интеграции'", "PL/SQL, Таблицы", "Процедуры и таблицы для обмена данными с внешними системами")
+    }
+}
+
+System_Ext(internet_bank, "Интернет-банк")
+System_Ext(credit_conveyor, "Кредитный конвейер")
+System_Ext(scoring_system, "Система скоринга")
+
+Rel(gui, plsql_api, "Вызывает процедуры")
+
+Rel(plsql_api, clients, "Использует")
+Rel(plsql_api, deposits, "Использует")
+Rel(plsql_api, credits, "Использует")
+
+' Отражение проблемных интеграций на уровне компонентов
+Rel_Back(internet_bank, db, "Читает/пишет напрямую в таблицы", "SQL")
+Rel(integration, credit_conveyor, "Выгружает данные (раз в сутки)", "DB Link")
+Rel(scoring_system, integration, "Запрашивает данные", "PL/SQL API")
+
+@enduml

@@ -1,0 +1,37 @@
+@startuml
+!include <C4/C4_Container>
+!include <C4/C4_Component>
+
+title Диаграмма компонентов (C4 Level 3) для Интернет-банка "Стандарт"
+
+System_Ext(client_browser, "Веб-браузер клиента")
+ContainerDb_Ext(abs_db, "БД АБС", "Oracle", "База данных Автоматизированной Банковской Системы")
+
+Container_Boundary(ib, "Интернет-банк") {
+    Component(spa, "Веб-приложение", "ASP.NET MVC", "Отображение страниц, обработка действий пользователя")
+
+    Component(api, "API Контроллеры", ".NET", "Принимает запросы от веб-приложения")
+
+    Component(payment_service, "Сервис 'Платежи'", ".NET", "Бизнес-логика проведения платежей")
+    Component(account_service, "Сервис 'Счета'", ".NET", "Бизнес-логика управления счетами")
+
+    Component(abs_integration, "Модуль интеграции с АБС", ".NET", "Реализует логику чтения балансов, истории операций и создания платежных документов в таблицах АБС")
+
+    ContainerDb(ib_db, "БД Интернет-банка", "MS SQL", "Хранение данных сессий, логов, кэшированных данных")
+}
+
+Rel(client_browser, spa, "Использует", "HTTPS")
+Rel(spa, api, "Вызывает", "AJAX/JSON")
+
+Rel(api, payment_service, "Использует")
+Rel(api, account_service, "Использует")
+
+Rel(payment_service, abs_integration, "Использует")
+Rel(account_service, abs_integration, "Использует")
+
+Rel(payment_service, ib_db, "Пишет логи")
+Rel(account_service, ib_db, "Пишет логи")
+
+Rel_Back_Neighbor(abs_integration, abs_db, "Читает/пишет напрямую", "SQL")
+
+@enduml

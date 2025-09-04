@@ -1,0 +1,63 @@
+@startuml
+!theme plain
+title Карта IT-ландшафта банка "Стандарт"
+
+' Определяем бизнес-возможности (колонки)
+package "Бизнес-возможности" {
+  cloud "Продажи и Маркетинг" as SalesMarketing {
+    cloud "Привлечение клиентов" as LeadGen
+    cloud "Продажи в отделениях" as BranchSales
+    cloud "Продажи в онлайн-каналах" as OnlineSales
+    cloud "Продажи через кол-центр" as CCSales
+  }
+  cloud "Обслуживание продуктов" as ProductService {
+    cloud "Управление ценообразованием" as PricingMgmt
+    cloud "Обслуживание депозитов" as DepoService
+    cloud "Обслуживание кредитов" as CreditService
+    cloud "Управление договорами" as ContractMgmt
+  }
+  cloud "Коммуникации" as Communications {
+      cloud "Информирование клиентов" as CustomerComms
+  }
+}
+
+' Определяем IT-системы (строки)
+package "IT-системы банка" {
+    [Сайт] as Website
+    [Интернет-банк] as IB
+    [Система кол-центра] as CC_System
+    [Система партнёрского КЦ] as Partner_CC_System
+    [АБС] as ABS_System
+    [Кредитный конвейер] as CreditConveyor
+    [Система скоринга] as ScoringSystem
+    [СМС-шлюз] as SMS_Gateway
+    [Процесс расчета ставок (Excel)] as Manual_Rates <<Manual>>
+}
+
+package "Внешние системы" {
+    [БКИ] as BKI
+}
+
+
+' Связи Систем и Возможностей
+Website -- LeadGen
+IB -- OnlineSales
+
+CC_System -- CCSales
+Partner_CC_System -- CCSales
+
+ABS_System -- BranchSales
+ABS_System -- DepoService
+ABS_System -- CreditService
+ABS_System -- ContractMgmt
+
+CreditConveyor -- CreditService
+ScoringSystem -- CreditService
+
+Manual_Rates -- PricingMgmt
+
+SMS_Gateway -- CustomerComms
+
+BKI -- CreditService
+
+@enduml
