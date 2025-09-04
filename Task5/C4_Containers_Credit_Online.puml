@@ -1,0 +1,71 @@
+@startuml
+!include <C4/C4_Container>
+
+title Диаграмма контейнеров (C4 Level 2) для онлайн-заявки на кредит (TO-BE)
+
+' --- Пользователи ---
+Person(client, "Клиент")
+
+' --- Внешние системы ---
+System_Ext(bki, "Бюро кредитных историй")
+
+' --- Граница основной системы ---
+System_Boundary(bank_system, "IT-система банка 'Стандарт'") {
+    Container(website, "Сайт", "PHP, React.js")
+    Container(ib, "Интернет-банк", "ASP.NET MVC, MS SQL")
+
+    Container(api_gateway, "API Gateway", "Spring Cloud Gateway")
+    Container(idp, "Identity Provider", "Keycloak")
+    
+    Container_Boundary(loan_app_service_boundary, "Сервис Заявок на Кредит") {
+        Container(loan_app_service_api, "API", "Java, Spring Boot")
+        ContainerDb(loan_app_service_db, "DB", "PostgreSQL", "Хранилище онлайн-заявок")
+    }
+
+    Container_Boundary(preapproved_offer_service_boundary, "Сервис Предодобренных Предложений") {
+        Container(preapproved_offer_service_api, "API", "Java, Spring Boot")
+        ContainerDb(preapproved_offer_service_db, "DB", "PostgreSQL", "Хранилище предложений")
+    }
+    
+    Container(kafka, "Брокер сообщений Kafka", "Apache Kafka")
+    Container(schema_registry, "Schema Registry", "Confluent Schema Registry")
+
+    Container(credit_conveyor, "Кредитный конвейер", "Java, Camunda")
+    Container(scoring_system, "Система скоринга", "Python, Flask")
+    
+    Container_Boundary(abs_boundary, "АБС") {
+        Container(abs_api, "ABS API", "Java, Spring Boot", "API-слой для доступа к АБС")
+        Container(abs_app, "Приложение АБС", "Delphi, PL/SQL", "Основная учетная система")
+    }
+}
+
+' --- Связи ---
+
+' 1. Аутентификация
+Rel(client, idp, "Аутентифицируется", "OAuth2/OIDC")
+Rel(api_gateway, idp, "Валидирует JWT токен")
+
+' 2. Подача заявки (синхронная часть)
+Rel(client, website, "Подает заявку")
+Rel(client, ib, "Подает заявку")
+Rel(website, api_gateway, "Отправляет данные заявки")
+Rel(ib, api_gateway, "Отправляет данные заявки")
+Rel(api_gateway, loan_app_service_api, "Проксирует запрос")
+Rel(loan_app_service_api, scoring_system, "Синхронно вызывает для предв. оценки", "Circuit Breaker")
+Rel(scoring_system, bki, "Запрашивает кредитную историю")
+
+' 3. Асинхронная обработка
+Rel(loan_app_service_api, kafka, "Публикует 'ЗаявкаСоздана'")
+Rel(kafka, credit_conveyor, "Получает 'ЗаявкаСоздана'")
+
+' 4. Процесс в КК
+Rel(credit_conveyor, scoring_system, "Запрашивает полный скоринг")
+Rel(scoring_system, abs_api, "Запрашивает доп. данные", "mTLS")
+Rel(abs_api, abs_app, "Выполняет запрос к ядру АБС") ' <-- ИСПРАВЛЕНО
+
+' 5. Предодобренные предложения
+Rel(ib, api_gateway, "Запрашивает предложения")
+Rel(api_gateway, preapproved_offer_service_api, "Проксирует запрос")
+Rel(preapproved_offer_service_api, scoring_system, "Запускает пакетный скоринг")
+
+@enduml
