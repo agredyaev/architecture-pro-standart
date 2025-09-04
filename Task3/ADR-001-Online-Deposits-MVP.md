@@ -27,8 +27,8 @@
 
 #### Диаграммы
 
-*   **[Диаграмма контекста (C4 Level 1, TO-BE)](./C4_Context_TO_BE.puml)**
-*   **[Диаграмма контейнеров (C4 Level 2, TO-BE)](./C4_Containers_TO_BE.puml)**
+*   **[Диаграмма контекста (C4 Level 1, TO-BE)](./img/C4_Context_TO_BE.svg)**
+*   **[Диаграмма контейнеров (C4 Level 2, TO-BE)](./img/C4_Containers_TO_BE.svg)**
 
 #### Обоснование решения
 

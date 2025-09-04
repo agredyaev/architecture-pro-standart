@@ -22,7 +22,8 @@
 4.  **API Gateway:** Единая точка входа для **внешних** клиентов (Сайт, ИБ).
 
 **Диаграммы:**
-*   **[Диаграмма контейнеров (C4 Level 2)](./C4_Containers_Credit_Online.puml)**
+    **[Диаграмма контекста (C4 Level 2)](./img/C4_Context_Credit_Online.svg)**
+    **[Диаграмма контейнеров (C4 Level 2)](./img/C4_Containers_Credit_Online.svg)**
 
 **Описание решения:**
 *   **Безопасность:** `Identity Provider` (Keycloak) и `API Gateway` для валидации JWT.
