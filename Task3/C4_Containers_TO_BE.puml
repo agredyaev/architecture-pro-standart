@@ -1,0 +1,62 @@
+@startuml
+!include <C4/C4_Container>
+
+title Диаграмма контейнеров (C4 Level 2) для IT-системы банка "Стандарт" (TO-BE MVP)
+
+Person(client, "Клиент")
+Person(back_office_depo, "Сотрудник бэк-офиса")
+Person(call_center_agent, "Оператор кол-центра")
+System_Ext(telecom, "Телеком-оператор")
+
+System_Boundary(bank_system, "IT-система банка 'Стандарт'") {
+    ' --- Фронтальные системы ---
+    Container(website, "Сайт", "PHP, React.js", "Принимает заявки от новых клиентов")
+    Container(ib, "Интернет-банк", "ASP.NET MVC, MS SQL", "Принимает заявки от существующих клиентов")
+    
+    ' --- Новые компоненты ---
+    Container(api_gateway, "API Gateway", "Java/Spring Cloud Gateway", "Кластеризованная единая точка входа для онлайн-каналов")
+    Container(otp_service, "OTP Service", "Java/Spring Boot", "Сервис генерации и проверки одноразовых СМС-кодов")
+    
+    Container_Boundary(rate_service_boundary, "Rate Service") {
+        Container(rate_service_api, "API", "Java/Spring Boot", "REST API для управления ставками")
+        ContainerDb(rate_service_db, "DB", "PostgreSQL", "Хранилище депозитных ставок")
+    }
+    
+    Container_Boundary(deposit_service_boundary, "Deposit Service") {
+        Container(deposit_service_api, "API & UI", "Java/Spring Boot", "REST API и UI для обработки заявок")
+        ContainerDb(deposit_service_db, "DB", "PostgreSQL", "Хранилище онлайн-заявок")
+    }
+    
+    ' --- Существующие компоненты ---
+    Container(cc_system, "Система кол-центра", "Java, React", "Принимает заявки с сайта")
+    Container(kafka, "Kafka", "Apache Kafka", "Брокер сообщений для асинхронной интеграции")
+    
+    Container_Boundary(abs_boundary, "АБС") {
+        Container(abs_adapter, "Адаптер АБС", "Java", "Слушает Kafka, вызывает процедуры АБС")
+        Container(abs_app, "Приложение АБС", "Delphi, PL/SQL", "Основная учетная система")
+    }
+}
+
+' --- Взаимодействия ---
+Rel(client, website, "Подает заявку", "HTTPS")
+Rel(client, ib, "Подает заявку", "HTTPS")
+
+Rel(website, api_gateway, "Запрашивает ставки, отправляет заявку", "REST API")
+Rel(ib, api_gateway, "Запрашивает ставки, отправляет заявку", "REST API")
+Rel(ib, otp_service, "Запрашивает и валидирует СМС-код", "REST API")
+Rel(otp_service, telecom, "Отправляет СМС с кодом подтверждения")
+
+Rel(api_gateway, rate_service_api, "Проксирует запросы к ставкам")
+Rel(api_gateway, deposit_service_api, "Проксирует запросы к заявкам")
+
+Rel(deposit_service_api, kafka, "Публикует событие 'Заявка создана'", "Avro")
+Rel(abs_adapter, kafka, "Подписывается на события по заявкам", "Avro")
+Rel(abs_adapter, abs_app, "Вызывает процедуры для регистрации заявки")
+
+' Rel(website, cc_system, "Передает заявки от новых клиентов", "REST API") ' Устаревший поток, заменен на прямой вызов Deposit Service
+Rel(call_center_agent, cc_system, "Обрабатывает обращения")
+
+Rel(back_office_depo, deposit_service_api, "Обрабатывает заявки в UI")
+Rel(abs_app, telecom, "Отправляет СМС")
+
+@enduml

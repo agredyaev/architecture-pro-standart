@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1284px" preserveAspectRatio="none" style="width:1503px;height:1284px;background:#FFFFFF;" version="1.1" viewBox="0 0 1503 1284" width="1503px" zoomAndPan="magnify"><defs/><g><rect height="26.2969" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="691" x="399" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="681" x="404" y="22.9951">Диаграмма контейнеров (C4 Level 2) для IT-системы банка "Стандарт" (TO-BE MVP)</text><!--MD5=[c18f891ed9e6e34f7069cfb5e52f3c85]
+cluster bank_system--><g id="cluster_bank_system"><rect height="945" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="1266" x="87" y="220.2969"/><text fill="#444444" font-family="sans-serif" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="38" x="701" y="227.8662">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="258" x="591" y="247.1484">IT-система банка 'Стандарт'</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="689" y="262.0605">[System]</text></g><!--MD5=[c64c6bfbe47968d814ae51ff78a4912a]
+cluster rate_service_boundary--><g id="cluster_rate_service_boundary"><rect height="201" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="485" x="111" y="720.2969"/><text fill="#444444" font-family="sans-serif" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="38" x="334.5" y="727.8662">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="112" x="297.5" y="747.1484">Rate Service</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="80" x="313.5" y="762.0605">[Container]</text></g><!--MD5=[0ac9c4cec684ccc5170cf0a4ed2302ad]
+cluster deposit_service_boundary--><g id="cluster_deposit_service_boundary"><rect height="192" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="439" x="620" y="724.7969"/><text fill="#444444" font-family="sans-serif" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="38" x="820.5" y="732.3662">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="139" x="770" y="751.6484">Deposit Service</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="80" x="799.5" y="766.5605">[Container]</text></g><!--MD5=[e42808fd03dc2cbc15b170499c01bf6c]
+cluster abs_boundary--><g id="cluster_abs_boundary"><rect height="416.5" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="246" x="1083" y="724.7969"/><text fill="#444444" font-family="sans-serif" font-size="6" font-style="italic" lengthAdjust="spacing" textLength="38" x="1187" y="732.3662">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="36" x="1188" y="751.6484">АБС</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="80" x="1166" y="766.5605">[Container]</text></g><!--MD5=[e9053c6dbb891ad4199c45de881c9d13]
+entity website--><g id="elem_website"><rect fill="#438DD5" height="115.4531" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="185" x="448.5" y="281.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="504" y="302.4355">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="42" x="520" y="320.1172">Сайт</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="90" x="496" y="335.0293">[PHP, React.js]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="539" y="350.8545"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="462.5" y="367.1514">Принимает заявки от</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="482" y="383.4482">новых клиентов</text></g><!--MD5=[21503ba018392213cfe7071482b8b579]
+entity ib--><g id="elem_ib"><rect fill="#438DD5" height="115.4531" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="206" x="207" y="281.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="273" y="302.4355">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="136" x="242" y="320.1172">Интернет-банк</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="144" x="238" y="335.0293">[ASP.NET MVC, MS SQL]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="308" y="350.8545"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="231.5" y="367.1514">Принимает заявки от</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="217" y="383.4482">существующих клиентов</text></g><!--MD5=[76642c686924d2234c32dd0968779847]
+entity api_gateway--><g id="elem_api_gateway"><rect fill="#438DD5" height="131.75" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="219" x="398.5" y="513.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="471" y="534.4355">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="113" x="451.5" y="552.1172">API Gateway</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="178" x="419" y="567.0293">[Java/Spring Cloud Gateway]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="506" y="582.8545"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="412.5" y="599.1514">Кластеризованная единая</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="446.5" y="615.4482">точка входа для</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="449.5" y="631.7451">онлайн-каналов</text></g><!--MD5=[e14dddc9ac89c64aec6137e8edf5a327]
+entity otp_service--><g id="elem_otp_service"><rect fill="#438DD5" height="131.75" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="195" x="102.5" y="513.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="163" y="534.4355">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="108" x="146" y="552.1172">OTP Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="143.5" y="567.0293">[Java/Spring Boot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="198" y="582.8545"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="125.5" y="599.1514">Сервис генерации и</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="112.5" y="615.4482">проверки одноразовых</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="159.5" y="631.7451">СМС-кодов</text></g><!--MD5=[1baae68f1dfca827ee8586284f2589d5]
+entity cc_system--><g id="elem_cc_system"><rect fill="#438DD5" height="99.1563" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="217" x="893.5" y="289.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="965" y="310.4355">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="187" x="908.5" y="328.1172">Система кол-центра</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="962" y="343.0293">[Java, React]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1000" y="358.8545"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="907.5" y="375.1514">Принимает заявки с сайта</text></g><!--MD5=[e29745d789d1cd237fb5892a53e7b9d1]
+entity kafka--><g id="elem_kafka"><rect fill="#438DD5" height="115.4531" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="207" x="777.5" y="1010.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="844" y="1031.4355">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="49" x="856.5" y="1049.1172">Kafka</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="96" x="833" y="1064.0293">[Apache Kafka]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="879" y="1079.8545"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="794" y="1096.1514">Брокер сообщений для</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="787.5" y="1112.4482">асинхронной интеграции</text></g><!--MD5=[28e3ba91de22d3e97aaaab41678e7c3a]
+entity rate_service_api--><g id="elem_rate_service_api"><rect fill="#438DD5" height="115.4531" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="210" x="370" y="785.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="438" y="806.9355">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="30" x="460" y="824.6172">API</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="418.5" y="839.5293">[Java/Spring Boot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="473" y="855.3545"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="384" y="871.6514">REST API для управления</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="441" y="887.9482">ставками</text></g><!--MD5=[851ee0c8a4e9dc61aafbfef79ec6387d]
+entity rate_service_db--><g id="elem_rate_service_db"><path d="M127.5,791.2969 C127.5,781.2969 231,781.2969 231,781.2969 C231,781.2969 334.5,781.2969 334.5,791.2969 L334.5,895.75 C334.5,905.75 231,905.75 231,905.75 C231,905.75 127.5,905.75 127.5,895.75 L127.5,791.2969 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M127.5,791.2969 C127.5,801.2969 231,801.2969 231,801.2969 C231,801.2969 334.5,801.2969 334.5,791.2969 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="194" y="816.4355">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="25" x="218.5" y="834.1172">DB</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="191" y="849.0293">[PostgreSQL]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="229" y="864.8545"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="141.5" y="881.1514">Хранилище депозитных</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="206" y="897.4482">ставок</text></g><!--MD5=[73cd82df9f07d1e7c9f12c3ee3bbce95]
+entity deposit_service_api--><g id="elem_deposit_service_api"><rect fill="#438DD5" height="115.4531" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="152" x="891" y="785.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="930" y="806.9355">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="74" x="930" y="824.6172">API &amp; UI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="910.5" y="839.5293">[Java/Spring Boot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="965" y="855.3545"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="905.5" y="871.6514">REST API и UI для</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="901" y="887.9482">обработки заявок</text></g><!--MD5=[bb9daede8486e09695034eb8d28ef97a]
+entity deposit_service_db--><g id="elem_deposit_service_db"><path d="M636,799.2969 C636,789.2969 746,789.2969 746,789.2969 C746,789.2969 856,789.2969 856,799.2969 L856,887.4531 C856,897.4531 746,897.4531 746,897.4531 C746,897.4531 636,897.4531 636,887.4531 L636,799.2969 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M636,799.2969 C636,809.2969 746,809.2969 746,809.2969 C746,809.2969 856,809.2969 856,799.2969 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="709" y="824.4355">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="25" x="733.5" y="842.1172">DB</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="706" y="857.0293">[PostgreSQL]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="744" y="872.8545"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="650" y="889.1514">Хранилище онлайн-заявок</text></g><!--MD5=[736a9ec430ada0605630d98a91ca0480]
+entity abs_adapter--><g id="elem_abs_adapter"><rect fill="#438DD5" height="115.4531" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="214" x="1099" y="785.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="1169" y="806.9355">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="119" x="1146.5" y="824.6172">Адаптер АБС</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="36" x="1188" y="839.5293">[Java]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1204" y="855.3545"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="1113" y="871.6514">Слушает Kafka, вызывает</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1148" y="887.9482">процедуры АБС</text></g><!--MD5=[edd49d60ef8d96d160eeb3fd4ec6464c]
+entity abs_app--><g id="elem_abs_app"><rect fill="#438DD5" height="115.4531" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="180" x="1099" y="1010.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="1152" y="1031.4355">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="160" x="1109" y="1049.1172">Приложение АБС</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="98" x="1140" y="1064.0293">[Delphi, PL/SQL]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1187" y="1079.8545"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="1123" y="1096.1514">Основная учетная</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="1158.5" y="1112.4482">система</text></g><!--MD5=[4a65e84059005d12693a083370a06717]
+entity client--><g id="elem_client"><rect fill="#08427B" height="100.5938" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="87" x="372.5" y="44.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="387.5" y="65.4355">«person»</text><image height="48" width="48" x="392" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="68.2656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="67" x="382.5" y="131.1172">Клиент</text></g><!--MD5=[bd83dc3e786073f999bedfe207167036]
+entity back_office_depo--><g id="elem_back_office_depo"><rect fill="#08427B" height="119.2188" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="125" x="1369.5" y="519.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="1403.5" y="540.9355">«person»</text><image height="48" width="48" x="1408" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="543.7656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="99" x="1379.5" y="606.6172">Сотрудник</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="96" x="1384" y="625.2422">бэк-офиса</text></g><!--MD5=[3820734271eaefb7918c69f8b826a76c]
+entity call_center_agent--><g id="elem_call_center_agent"><rect fill="#08427B" height="100.5938" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="219" x="892.5" y="44.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="973.5" y="65.4355">«person»</text><image height="48" width="48" x="978" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="68.2656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="199" x="902.5" y="131.1172">Оператор кол-центра</text></g><!--MD5=[a0d46f328d59bd278817c0c480d33714]
+entity telecom--><g id="elem_telecom"><rect fill="#999999" height="52.5938" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="192" x="7" y="1226.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="115" x="45.5" y="1247.4355">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="172" x="17" y="1265.1172">Телеком-оператор</text></g><!--MD5=[84b990784b6c83f679c6449834d4e27d]
+link client to website--><g id="link_client_website"><path d="M444.77,145.5969 C450.26,155.3869 455.89,165.6269 461,175.2969 C477.93,207.3369 495.83,243.4569 510.4,273.4869 " fill="none" id="client-to-website" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="514.02,280.9869,513.2342,272.4791,507.8338,275.0936,514.02,280.9869" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="106" x="475" y="187.4355">Подает заявку</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="504" y="201.4043">[HTTPS]</text></g><!--MD5=[877557de86b601de155bcfc3766dc40a]
+link client to ib--><g id="link_client_ib"><path d="M372.39,140.2769 C363.61,151.0769 355.19,163.0569 349,175.2969 C333.68,205.6069 324.22,242.1669 318.46,272.9269 " fill="none" id="client-to-ib" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="317,281.0269,321.3651,273.6821,315.4594,272.6229,317,281.0269" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="106" x="350" y="187.4355">Подает заявку</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="379" y="201.4043">[HTTPS]</text></g><!--MD5=[a20f2237a990a845cc8c35dd64e4ddbc]
+link website to api_gateway--><g id="link_website_api_gateway"><path d="M533.18,396.3169 C528.7,428.7069 523.02,469.7369 518.19,504.6269 " fill="none" id="website-to-api_gateway" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="517.05,512.8969,521.1209,505.385,515.1778,504.5605,517.05,512.8969" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="98" x="549.5" y="438.4355">Запрашивает</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="139" x="529" y="452.4043">ставки, отправляет</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="48" x="576.5" y="466.373">заявку</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="64" x="568.5" y="480.3418">[REST API]</text></g><!--MD5=[6a466af2888ab1e406aeb855a8127dd3]
+link ib to api_gateway--><g id="link_ib_api_gateway"><path d="M324.33,396.3269 C333.5,424.5569 347.57,457.9969 368,483.2969 C375.2,492.2069 383.45,500.6069 392.27,508.4469 " fill="none" id="ib-to-api_gateway" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="398.46,513.7869,394.3543,506.294,390.4398,510.8412,398.46,513.7869" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="98" x="389.5" y="438.4355">Запрашивает</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="139" x="369" y="452.4043">ставки, отправляет</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="48" x="416.5" y="466.373">заявку</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="64" x="408.5" y="480.3418">[REST API]</text></g><!--MD5=[fe731e4dd661e46b2ae1fbd95904bbfb]
+link ib to otp_service--><g id="link_ib_otp_service"><path d="M218.61,396.4369 C209.96,405.3769 202.42,415.3269 197,426.2969 C185.14,450.3169 183.15,479.1869 185.08,505.2769 " fill="none" id="ib-to-otp_service" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="185.79,513.2769,188.064,505.0411,182.088,505.5765,185.79,513.2769" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="110" x="198" y="438.4355">Запрашивает и</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="85" x="210.5" y="452.4043">валидирует</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="224" y="466.373">СМС-код</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="64" x="223" y="480.3418">[REST API]</text></g><!--MD5=[ef40ca8d42c2fcd3f69a71bf0dadd899]
+link otp_service to telecom--><g id="link_otp_service_telecom"><path d="M145.19,645.5669 C131.36,665.7169 118.36,688.8269 111,712.2969 C53.47,895.6669 83.01,1131.6369 97.02,1218.1169 " fill="none" id="otp_service-to-telecom" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="98.36,1226.2569,100.0212,1217.8759,94.1008,1218.8502,98.36,1226.2569" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="130" x="79" y="949.4355">Отправляет СМС с</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="46" x="121" y="963.4043">кодом</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="115" x="88.5" y="977.373">подтверждения</text></g><!--MD5=[d09e6687077244d3e35c965128bf4f50]
+link api_gateway to rate_service_api--><g id="link_api_gateway_rate_service_api"><path d="M499.8,645.3969 C494.73,685.6669 488.24,737.1669 483.17,777.3969 " fill="none" id="api_gateway-to-rate_service_api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="482.15,785.5369,486.1258,777.9743,480.1728,777.2248,482.15,785.5369" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="148" x="496" y="687.4355">Проксирует запросы</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="70" x="535" y="701.4043">к ставкам</text></g><!--MD5=[edde3792c179dfdb7e31225b93281591]
+link api_gateway to deposit_service_api--><g id="link_api_gateway_deposit_service_api"><path d="M617.66,601.5769 C695.11,620.7269 798.2,654.9169 874,712.2969 C897.36,729.9769 917.27,755.1869 932.6,778.7069 " fill="none" id="api_gateway-to-deposit_service_api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="937.01,785.6169,935.246,777.257,930.184,780.4782,937.01,785.6169" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="148" x="858" y="687.4355">Проксирует запросы</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="71" x="896.5" y="701.4043">к заявкам</text></g><!--MD5=[aa60bddd7e3079c4de711c9f37b9d495]
+link deposit_service_api to kafka--><g id="link_deposit_service_api_kafka"><path d="M916.2,901.1369 C903.51,912.1969 889.16,922.4669 874,929.2969 C858.72,936.1869 810.21,924.8369 799,937.2969 C781.03,957.2869 790.01,981.6569 807.46,1003.8469 " fill="none" id="deposit_service_api-to-kafka" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="812.59,1010.0469,809.7972,1001.9722,805.1765,1005.7996,812.59,1010.0469" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="138" x="800" y="949.4355">Публикует событие</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="122" x="810" y="963.4043">'Заявка создана'</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="37" x="852.5" y="977.373">[Avro]</text></g><!--MD5=[495e4acbfbf3815ced5cd6f71f5ad722]
+link abs_adapter to kafka--><g id="link_abs_adapter_kafka"><path d="M1110,900.9169 C1093.11,910.5669 1075.61,920.3469 1059,929.2969 C1052,933.0669 1049.7,933.0169 1043,937.2969 C1011.56,957.4069 979.02,982.4669 951.42,1005.1669 " fill="none" id="abs_adapter-to-kafka" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="945.25,1010.2669,953.3247,1007.4741,949.4973,1002.8533,945.25,1010.2669" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="132" x="1047" y="949.4355">Подписывается на</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="142" x="1044" y="963.4043">события по заявкам</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="37" x="1096.5" y="977.373">[Avro]</text></g><!--MD5=[1d5c920273d70d1c8c641808b8d3b542]
+link abs_adapter to abs_app--><g id="link_abs_adapter_abs_app"><path d="M1201.67,901.0169 C1199.31,931.8769 1196.38,970.1769 1193.94,1002.1869 " fill="none" id="abs_adapter-to-abs_app" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1193.33,1010.1769,1196.9347,1002.4305,1190.9524,1001.9703,1193.33,1010.1769" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="71" x="1232" y="949.4355">Вызывает</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="113" x="1211" y="963.4043">процедуры для</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="141" x="1199" y="977.373">регистрации заявки</text></g><!--MD5=[a3f6bed5df760686d15db39975b6a559]
+link call_center_agent to cc_system--><g id="link_call_center_agent_cc_system"><path d="M1002,145.3569 C1002,184.7669 1002,239.9269 1002,281.0969 " fill="none" id="call_center_agent-to-cc_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1002,289.1369,1005,281.1369,999,281.1369,1002,289.1369" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="105" x="1003" y="187.4355">Обрабатывает</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="81" x="1017" y="201.4043">обращения</text></g><!--MD5=[1f238ef1ec8252b0a6540cd7d7518196]
+link back_office_depo to deposit_service_api--><g id="link_back_office_depo_deposit_service_api"><path d="M1409.57,638.8369 C1396.9,663.5369 1378.41,689.8569 1353,704.2969 C1326.9,719.1169 1110.21,699.6269 1083,712.2969 C1052.16,726.6669 1026.03,753.4969 1006.42,779.0669 " fill="none" id="back_office_depo-to-deposit_service_api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1001.58,785.5369,1008.7751,780.9292,1003.9712,777.3343,1001.58,785.5369" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="105" x="1386" y="687.4355">Обрабатывает</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="78" x="1401.5" y="701.4043">заявки в UI</text></g><!--MD5=[fd4b1048faa8b7af091df092994a0aeb]
+link abs_app to telecom--><g id="link_abs_app_telecom"><path d="M1151.65,1125.3369 C1136.39,1143.8169 1117.1,1162.3869 1095,1173.2969 C1016.88,1211.8669 446.01,1238.3869 207.38,1247.9069 " fill="none" id="abs_app-to-telecom" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="199.38,1248.2269,207.4964,1250.8961,207.2502,1244.9011,199.38,1248.2269" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="119" x="1069" y="1193.4355">Отправляет СМС</text></g><!--MD5=[5102342f36324b8a68455c164c4aa04c]
+@startuml
+!include <C4/C4_Container>
+
+title Диаграмма контейнеров (C4 Level 2) для IT-системы банка "Стандарт" (TO-BE MVP)
+
+Person(client, "Клиент")
+Person(back_office_depo, "Сотрудник бэк-офиса")
+Person(call_center_agent, "Оператор кол-центра")
+System_Ext(telecom, "Телеком-оператор")
+
+System_Boundary(bank_system, "IT-система банка 'Стандарт'") {
+    ' - - - Фронтальные системы - - -
+    Container(website, "Сайт", "PHP, React.js", "Принимает заявки от новых клиентов")
+    Container(ib, "Интернет-банк", "ASP.NET MVC, MS SQL", "Принимает заявки от существующих клиентов")
+    
+    ' - - - Новые компоненты - - -
+    Container(api_gateway, "API Gateway", "Java/Spring Cloud Gateway", "Кластеризованная единая точка входа для онлайн-каналов")
+    Container(otp_service, "OTP Service", "Java/Spring Boot", "Сервис генерации и проверки одноразовых СМС-кодов")
+    
+    Container_Boundary(rate_service_boundary, "Rate Service") {
+        Container(rate_service_api, "API", "Java/Spring Boot", "REST API для управления ставками")
+        ContainerDb(rate_service_db, "DB", "PostgreSQL", "Хранилище депозитных ставок")
+    }
+    
+    Container_Boundary(deposit_service_boundary, "Deposit Service") {
+        Container(deposit_service_api, "API & UI", "Java/Spring Boot", "REST API и UI для обработки заявок")
+        ContainerDb(deposit_service_db, "DB", "PostgreSQL", "Хранилище онлайн-заявок")
+    }
+    
+    ' - - - Существующие компоненты - - -
+    Container(cc_system, "Система кол-центра", "Java, React", "Принимает заявки с сайта")
+    Container(kafka, "Kafka", "Apache Kafka", "Брокер сообщений для асинхронной интеграции")
+    
+    Container_Boundary(abs_boundary, "АБС") {
+        Container(abs_adapter, "Адаптер АБС", "Java", "Слушает Kafka, вызывает процедуры АБС")
+        Container(abs_app, "Приложение АБС", "Delphi, PL/SQL", "Основная учетная система")
+    }
+}
+
+' - - - Взаимодействия - - -
+Rel(client, website, "Подает заявку", "HTTPS")
+Rel(client, ib, "Подает заявку", "HTTPS")
+
+Rel(website, api_gateway, "Запрашивает ставки, отправляет заявку", "REST API")
+Rel(ib, api_gateway, "Запрашивает ставки, отправляет заявку", "REST API")
+Rel(ib, otp_service, "Запрашивает и валидирует СМС-код", "REST API")
+Rel(otp_service, telecom, "Отправляет СМС с кодом подтверждения")
+
+Rel(api_gateway, rate_service_api, "Проксирует запросы к ставкам")
+Rel(api_gateway, deposit_service_api, "Проксирует запросы к заявкам")
+
+Rel(deposit_service_api, kafka, "Публикует событие 'Заявка создана'", "Avro")
+Rel(abs_adapter, kafka, "Подписывается на события по заявкам", "Avro")
+Rel(abs_adapter, abs_app, "Вызывает процедуры для регистрации заявки")
+
+' Rel(website, cc_system, "Передает заявки от новых клиентов", "REST API") ' Устаревший поток, заменен на прямой вызов Deposit Service
+Rel(call_center_agent, cc_system, "Обрабатывает обращения")
+
+Rel(back_office_depo, deposit_service_api, "Обрабатывает заявки в UI")
+Rel(abs_app, telecom, "Отправляет СМС")
+
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+title Диаграмма контейнеров (C4 Level 2) для IT-системы банка "Стандарт" (TO-BE MVP)
+
+rectangle "<$person>\n==Клиент" <<person>> as client 
+rectangle "<$person>\n==Сотрудник бэк-офиса" <<person>> as back_office_depo 
+rectangle "<$person>\n==Оператор кол-центра" <<person>> as call_center_agent 
+rectangle "==Телеком-оператор" <<external_system>> as telecom 
+
+rectangle "==IT-система банка 'Стандарт'\n<size:12>[System]</size>" <<boundary>> as bank_system  {
+    rectangle "==Сайт\n//<size:12>[PHP, React.js]</size>//\n\n Принимает заявки от новых клиентов" <<container>> as website 
+    rectangle "==Интернет-банк\n//<size:12>[ASP.NET MVC, MS SQL]</size>//\n\n Принимает заявки от существующих клиентов" <<container>> as ib 
+    
+    rectangle "==API Gateway\n//<size:12>[Java/Spring Cloud Gateway]</size>//\n\n Кластеризованная единая точка входа для онлайн-каналов" <<container>> as api_gateway 
+    rectangle "==OTP Service\n//<size:12>[Java/Spring Boot]</size>//\n\n Сервис генерации и проверки одноразовых СМС-кодов" <<container>> as otp_service 
+    
+rectangle "==Rate Service\n<size:12>[Container]</size>" <<boundary>> as rate_service_boundary  {
+        rectangle "==API\n//<size:12>[Java/Spring Boot]</size>//\n\n REST API для управления ставками" <<container>> as rate_service_api 
+        database "==DB\n//<size:12>[PostgreSQL]</size>//\n\n Хранилище депозитных ставок" <<container>> as rate_service_db 
+    }
+    
+rectangle "==Deposit Service\n<size:12>[Container]</size>" <<boundary>> as deposit_service_boundary  {
+        rectangle "==API & UI\n//<size:12>[Java/Spring Boot]</size>//\n\n REST API и UI для обработки заявок" <<container>> as deposit_service_api 
+        database "==DB\n//<size:12>[PostgreSQL]</size>//\n\n Хранилище онлайн-заявок" <<container>> as deposit_service_db 
+    }
+    
+    rectangle "==Система кол-центра\n//<size:12>[Java, React]</size>//\n\n Принимает заявки с сайта" <<container>> as cc_system 
+    rectangle "==Kafka\n//<size:12>[Apache Kafka]</size>//\n\n Брокер сообщений для асинхронной интеграции" <<container>> as kafka 
+    
+rectangle "==АБС\n<size:12>[Container]</size>" <<boundary>> as abs_boundary  {
+        rectangle "==Адаптер АБС\n//<size:12>[Java]</size>//\n\n Слушает Kafka, вызывает процедуры АБС" <<container>> as abs_adapter 
+        rectangle "==Приложение АБС\n//<size:12>[Delphi, PL/SQL]</size>//\n\n Основная учетная система" <<container>> as abs_app 
+    }
+}
+
+client - ->> website : **Подает заявку**\n//<size:12>[HTTPS]</size>//
+client - ->> ib : **Подает заявку**\n//<size:12>[HTTPS]</size>//
+
+website - ->> api_gateway : **Запрашивает ставки, отправляет заявку**\n//<size:12>[REST API]</size>//
+ib - ->> api_gateway : **Запрашивает ставки, отправляет заявку**\n//<size:12>[REST API]</size>//
+ib - ->> otp_service : **Запрашивает и валидирует СМС-код**\n//<size:12>[REST API]</size>//
+otp_service - ->> telecom : **Отправляет СМС с кодом подтверждения**
+
+api_gateway - ->> rate_service_api : **Проксирует запросы к ставкам**
+api_gateway - ->> deposit_service_api : **Проксирует запросы к заявкам**
+
+deposit_service_api - ->> kafka : **Публикует событие 'Заявка создана'**\n//<size:12>[Avro]</size>//
+abs_adapter - ->> kafka : **Подписывается на события по заявкам**\n//<size:12>[Avro]</size>//
+abs_adapter - ->> abs_app : **Вызывает процедуры для регистрации заявки**
+
+call_center_agent - ->> cc_system : **Обрабатывает обращения**
+
+back_office_depo - ->> deposit_service_api : **Обрабатывает заявки в UI**
+abs_app - ->> telecom : **Отправляет СМС**
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 17:34:49 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
