@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="582px" preserveAspectRatio="none" style="width:1635px;height:582px;background:#FFFFFF;" version="1.1" viewBox="0 0 1635 582" width="1635px" zoomAndPan="magnify"><defs/><g><rect height="26.2969" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="371" x="598" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="361" x="603" y="22.9951">RoadMap MVP (квартальная раскладка WBS)</text><line style="stroke:#8B5CF6;stroke-width:1.0;" x1="0" x2="0" y1="37.2969" y2="52.2969"/><line style="stroke:#8B5CF6;stroke-width:1.0;" x1="976" x2="976" y1="37.2969" y2="52.2969"/><text fill="#000000" font-family="Serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="32" x="472" y="48.5645">2025</text><text fill="#000000" font-family="Serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="32" x="1256" y="48.5645">2026</text><line style="stroke:#8B5CF6;stroke-width:1.0;" x1="1568" x2="1568" y1="37.2969" y2="52.2969"/><line style="stroke:#8B5CF6;stroke-width:1.0;" x1="0" x2="0" y1="53.2969" y2="65.2969"/><line style="stroke:#8B5CF6;stroke-width:1.0;" x1="240" x2="240" y1="53.2969" y2="65.2969"/><text fill="#000000" font-family="Serif" font-size="10" lengthAdjust="spacing" textLength="14" x="113" y="62.5791">Q3</text><line style="stroke:#8B5CF6;stroke-width:1.0;" x1="976" x2="976" y1="53.2969" y2="65.2969"/><text fill="#000000" font-family="Serif" font-size="10" lengthAdjust="spacing" textLength="14" x="601" y="62.5791">Q4</text><text fill="#000000" font-family="Serif" font-size="10" lengthAdjust="spacing" textLength="14" x="1265" y="62.5791">Q1</text><line style="stroke:#8B5CF6;stroke-width:1.0;" x1="1568" x2="1568" y1="53.2969" y2="65.2969"/><line style="stroke:#8B5CF6;stroke-width:1.0;" x1="0" x2="1568" y1="37.2969" y2="37.2969"/><line style="stroke:#8B5CF6;stroke-width:1.0;" x1="0" x2="1568" y1="53.2969" y2="53.2969"/><line style="stroke:#8B5CF6;stroke-width:1.0;" x1="0" x2="1568" y1="66.2969" y2="66.2969"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="215" x2="215" y1="97.9063" y2="108.3086"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="215" x2="223" y1="108.3086" y2="108.3086"/><polygon fill="#8B5CF6" points="219,104.3086,219,108.3086,219,112.3086,223,108.3086" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="223" x2="215" y1="108.3086" y2="108.3086"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="215" x2="215" y1="108.3086" y2="125.1133"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="215" x2="223" y1="125.1133" y2="125.1133"/><polygon fill="#8B5CF6" points="219,121.1133,219,125.1133,219,129.1133,223,125.1133" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="223" x2="215" y1="108.3086" y2="108.3086"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="215" x2="215" y1="108.3086" y2="141.918"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="215" x2="223" y1="141.918" y2="141.918"/><polygon fill="#8B5CF6" points="219,137.918,219,141.918,219,145.918,223,141.918" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="887" x2="887" y1="114.7109" y2="158.7227"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="887" x2="895" y1="158.7227" y2="158.7227"/><polygon fill="#8B5CF6" points="891,154.7227,891,158.7227,891,162.7227,895,158.7227" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="1111" x2="1111" y1="165.125" y2="175.5273"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="1111" x2="1119" y1="175.5273" y2="175.5273"/><polygon fill="#8B5CF6" points="1115,171.5273,1115,175.5273,1115,179.5273,1119,175.5273" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="1335" x2="1335" y1="181.9297" y2="192.332"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="1335" x2="1343" y1="192.332" y2="192.332"/><polygon fill="#8B5CF6" points="1339,188.332,1339,192.332,1339,196.332,1343,192.332" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="215" x2="215" y1="97.9063" y2="225.9414"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="215" x2="223" y1="225.9414" y2="225.9414"/><polygon fill="#8B5CF6" points="219,221.9414,219,225.9414,219,229.9414,223,225.9414" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="663" x2="663" y1="232.3438" y2="242.7461"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="663" x2="671" y1="242.7461" y2="242.7461"/><polygon fill="#8B5CF6" points="667,238.7461,667,242.7461,667,246.7461,671,242.7461" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="775" x2="775" y1="249.1484" y2="259.5508"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="775" x2="783" y1="259.5508" y2="259.5508"/><polygon fill="#8B5CF6" points="779,255.5508,779,259.5508,779,263.5508,783,259.5508" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="663" x2="663" y1="232.3438" y2="293.1602"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="663" x2="671" y1="293.1602" y2="293.1602"/><polygon fill="#8B5CF6" points="667,289.1602,667,293.1602,667,297.1602,671,293.1602" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="719" x2="719" y1="299.5625" y2="309.9648"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="719" x2="727" y1="309.9648" y2="309.9648"/><polygon fill="#8B5CF6" points="723,305.9648,723,309.9648,723,313.9648,727,309.9648" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="887" x2="887" y1="316.3672" y2="326.7695"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="887" x2="895" y1="326.7695" y2="326.7695"/><polygon fill="#8B5CF6" points="891,322.7695,891,326.7695,891,330.7695,895,326.7695" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="887" x2="887" y1="114.7109" y2="377.1836"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="887" x2="895" y1="377.1836" y2="377.1836"/><polygon fill="#8B5CF6" points="891,373.1836,891,377.1836,891,381.1836,895,377.1836" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="943" x2="943" y1="383.5859" y2="393.9883"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="943" x2="951" y1="393.9883" y2="393.9883"/><polygon fill="#8B5CF6" points="947,389.9883,947,393.9883,947,397.9883,951,393.9883" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="1335" x2="1335" y1="181.9297" y2="410.793"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="1335" x2="1343" y1="410.793" y2="410.793"/><polygon fill="#8B5CF6" points="1339,406.793,1339,410.793,1339,414.793,1343,410.793" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="892" x2="892" y1="265.9531" y2="410.793"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="892" x2="1343" y1="410.793" y2="410.793"/><polygon fill="#8B5CF6" points="1339,406.793,1339,410.793,1339,414.793,1343,410.793" style="stroke:#8B5CF6;stroke-width:1.5;"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="1004" x2="1004" y1="333.1719" y2="410.793"/><line style="stroke:#8B5CF6;stroke-width:1.1;" x1="1004" x2="1343" y1="410.793" y2="410.793"/><polygon fill="#8B5CF6" points="1339,406.793,1339,410.793,1339,414.793,1343,410.793" style="stroke:#8B5CF6;stroke-width:1.5;"/><rect fill="#FFF4E6" height="12.8047" style="stroke:none;stroke-width:1.0;" width="732" x="242" y="68.2969"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="242" x2="974" y1="68.2969" y2="68.2969"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="242" x2="974" y1="81.1016" y2="81.1016"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="242" x2="242" y1="68.2969" y2="81.1016"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="974" x2="974" y1="68.2969" y2="81.1016"/><rect fill="#EDE9FE" height="12.8047" style="stroke:none;stroke-width:1.0;" width="220" x="2" y="85.1016"/><line style="stroke:#EDE9FE;stroke-width:1.0;" x1="2" x2="222" y1="85.1016" y2="85.1016"/><line style="stroke:#EDE9FE;stroke-width:1.0;" x1="2" x2="222" y1="97.9063" y2="97.9063"/><line style="stroke:#EDE9FE;stroke-width:1.0;" x1="2" x2="2" y1="85.1016" y2="97.9063"/><line style="stroke:#EDE9FE;stroke-width:1.0;" x1="222" x2="222" y1="85.1016" y2="97.9063"/><rect fill="#DDD6FE" height="12.8047" style="stroke:none;stroke-width:1.0;" width="668" x="226" y="101.9063"/><line style="stroke:#DDD6FE;stroke-width:1.0;" x1="226" x2="894" y1="101.9063" y2="101.9063"/><line style="stroke:#DDD6FE;stroke-width:1.0;" x1="226" x2="894" y1="114.7109" y2="114.7109"/><line style="stroke:#DDD6FE;stroke-width:1.0;" x1="226" x2="226" y1="101.9063" y2="114.7109"/><line style="stroke:#DDD6FE;stroke-width:1.0;" x1="894" x2="894" y1="101.9063" y2="114.7109"/><rect fill="#C4B5FD" height="12.8047" style="stroke:none;stroke-width:1.0;" width="444" x="226" y="118.7109"/><line style="stroke:#C4B5FD;stroke-width:1.0;" x1="226" x2="670" y1="118.7109" y2="118.7109"/><line style="stroke:#C4B5FD;stroke-width:1.0;" x1="226" x2="670" y1="131.5156" y2="131.5156"/><line style="stroke:#C4B5FD;stroke-width:1.0;" x1="226" x2="226" y1="118.7109" y2="131.5156"/><line style="stroke:#C4B5FD;stroke-width:1.0;" x1="670" x2="670" y1="118.7109" y2="131.5156"/><rect fill="#E9D5FF" height="12.8047" style="stroke:none;stroke-width:1.0;" width="332" x="226" y="135.5156"/><line style="stroke:#E9D5FF;stroke-width:1.0;" x1="226" x2="558" y1="135.5156" y2="135.5156"/><line style="stroke:#E9D5FF;stroke-width:1.0;" x1="226" x2="558" y1="148.3203" y2="148.3203"/><line style="stroke:#E9D5FF;stroke-width:1.0;" x1="226" x2="226" y1="135.5156" y2="148.3203"/><line style="stroke:#E9D5FF;stroke-width:1.0;" x1="558" x2="558" y1="135.5156" y2="148.3203"/><rect fill="#D8B4FE" height="12.8047" style="stroke:none;stroke-width:1.0;" width="220" x="898" y="152.3203"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="898" x2="1118" y1="152.3203" y2="152.3203"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="898" x2="1118" y1="165.125" y2="165.125"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="898" x2="898" y1="152.3203" y2="165.125"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="1118" x2="1118" y1="152.3203" y2="165.125"/><rect fill="#D8B4FE" height="12.8047" style="stroke:none;stroke-width:1.0;" width="220" x="1122" y="169.125"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="1122" x2="1342" y1="169.125" y2="169.125"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="1122" x2="1342" y1="181.9297" y2="181.9297"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="1122" x2="1122" y1="169.125" y2="181.9297"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="1342" x2="1342" y1="169.125" y2="181.9297"/><rect fill="#EDE9FE" height="12.8047" style="stroke:none;stroke-width:1.0;" width="108" x="1346" y="185.9297"/><line style="stroke:#EDE9FE;stroke-width:1.0;" x1="1346" x2="1454" y1="185.9297" y2="185.9297"/><line style="stroke:#EDE9FE;stroke-width:1.0;" x1="1346" x2="1454" y1="198.7344" y2="198.7344"/><line style="stroke:#EDE9FE;stroke-width:1.0;" x1="1346" x2="1346" y1="185.9297" y2="198.7344"/><line style="stroke:#EDE9FE;stroke-width:1.0;" x1="1454" x2="1454" y1="185.9297" y2="198.7344"/><rect fill="#FFF4E6" height="12.8047" style="stroke:none;stroke-width:1.0;" width="732" x="242" y="202.7344"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="242" x2="974" y1="202.7344" y2="202.7344"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="242" x2="974" y1="215.5391" y2="215.5391"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="242" x2="242" y1="202.7344" y2="215.5391"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="974" x2="974" y1="202.7344" y2="215.5391"/><rect fill="#C4B5FD" height="12.8047" style="stroke:none;stroke-width:1.0;" width="444" x="226" y="219.5391"/><line style="stroke:#C4B5FD;stroke-width:1.0;" x1="226" x2="670" y1="219.5391" y2="219.5391"/><line style="stroke:#C4B5FD;stroke-width:1.0;" x1="226" x2="670" y1="232.3438" y2="232.3438"/><line style="stroke:#C4B5FD;stroke-width:1.0;" x1="226" x2="226" y1="219.5391" y2="232.3438"/><line style="stroke:#C4B5FD;stroke-width:1.0;" x1="670" x2="670" y1="219.5391" y2="232.3438"/><rect fill="#DDD6FE" height="12.8047" style="stroke:none;stroke-width:1.0;" width="108" x="674" y="236.3438"/><line style="stroke:#DDD6FE;stroke-width:1.0;" x1="674" x2="782" y1="236.3438" y2="236.3438"/><line style="stroke:#DDD6FE;stroke-width:1.0;" x1="674" x2="782" y1="249.1484" y2="249.1484"/><line style="stroke:#DDD6FE;stroke-width:1.0;" x1="674" x2="674" y1="236.3438" y2="249.1484"/><line style="stroke:#DDD6FE;stroke-width:1.0;" x1="782" x2="782" y1="236.3438" y2="249.1484"/><rect fill="#D8B4FE" height="12.8047" style="stroke:none;stroke-width:1.0;" width="108" x="786" y="253.1484"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="786" x2="894" y1="253.1484" y2="253.1484"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="786" x2="894" y1="265.9531" y2="265.9531"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="786" x2="786" y1="253.1484" y2="265.9531"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="894" x2="894" y1="253.1484" y2="265.9531"/><rect fill="#FFF4E6" height="12.8047" style="stroke:none;stroke-width:1.0;" width="732" x="242" y="269.9531"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="242" x2="974" y1="269.9531" y2="269.9531"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="242" x2="974" y1="282.7578" y2="282.7578"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="242" x2="242" y1="269.9531" y2="282.7578"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="974" x2="974" y1="269.9531" y2="282.7578"/><rect fill="#E9D5FF" height="12.8047" style="stroke:none;stroke-width:1.0;" width="52" x="674" y="286.7578"/><line style="stroke:#E9D5FF;stroke-width:1.0;" x1="674" x2="726" y1="286.7578" y2="286.7578"/><line style="stroke:#E9D5FF;stroke-width:1.0;" x1="674" x2="726" y1="299.5625" y2="299.5625"/><line style="stroke:#E9D5FF;stroke-width:1.0;" x1="674" x2="674" y1="286.7578" y2="299.5625"/><line style="stroke:#E9D5FF;stroke-width:1.0;" x1="726" x2="726" y1="286.7578" y2="299.5625"/><rect fill="#E9D5FF" height="12.8047" style="stroke:none;stroke-width:1.0;" width="164" x="730" y="303.5625"/><line style="stroke:#E9D5FF;stroke-width:1.0;" x1="730" x2="894" y1="303.5625" y2="303.5625"/><line style="stroke:#E9D5FF;stroke-width:1.0;" x1="730" x2="894" y1="316.3672" y2="316.3672"/><line style="stroke:#E9D5FF;stroke-width:1.0;" x1="730" x2="730" y1="303.5625" y2="316.3672"/><line style="stroke:#E9D5FF;stroke-width:1.0;" x1="894" x2="894" y1="303.5625" y2="316.3672"/><rect fill="#D8B4FE" height="12.8047" style="stroke:none;stroke-width:1.0;" width="108" x="898" y="320.3672"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="898" x2="1006" y1="320.3672" y2="320.3672"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="898" x2="1006" y1="333.1719" y2="333.1719"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="898" x2="898" y1="320.3672" y2="333.1719"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="1006" x2="1006" y1="320.3672" y2="333.1719"/><rect fill="#FFF4E6" height="12.8047" style="stroke:none;stroke-width:1.0;" width="732" x="242" y="337.1719"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="242" x2="974" y1="337.1719" y2="337.1719"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="242" x2="974" y1="349.9766" y2="349.9766"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="242" x2="242" y1="337.1719" y2="349.9766"/><line style="stroke:#FFF4E6;stroke-width:1.0;" x1="974" x2="974" y1="337.1719" y2="349.9766"/><rect fill="#EDE9FE" height="12.8047" style="stroke:none;stroke-width:1.0;" width="52" x="242" y="353.9766"/><line style="stroke:#EDE9FE;stroke-width:1.0;" x1="242" x2="294" y1="353.9766" y2="353.9766"/><line style="stroke:#EDE9FE;stroke-width:1.0;" x1="242" x2="294" y1="366.7813" y2="366.7813"/><line style="stroke:#EDE9FE;stroke-width:1.0;" x1="242" x2="242" y1="353.9766" y2="366.7813"/><line style="stroke:#EDE9FE;stroke-width:1.0;" x1="294" x2="294" y1="353.9766" y2="366.7813"/><rect fill="#DDD6FE" height="12.8047" style="stroke:none;stroke-width:1.0;" width="52" x="898" y="370.7813"/><line style="stroke:#DDD6FE;stroke-width:1.0;" x1="898" x2="950" y1="370.7813" y2="370.7813"/><line style="stroke:#DDD6FE;stroke-width:1.0;" x1="898" x2="950" y1="383.5859" y2="383.5859"/><line style="stroke:#DDD6FE;stroke-width:1.0;" x1="898" x2="898" y1="370.7813" y2="383.5859"/><line style="stroke:#DDD6FE;stroke-width:1.0;" x1="950" x2="950" y1="370.7813" y2="383.5859"/><rect fill="#C4B5FD" height="12.8047" style="stroke:none;stroke-width:1.0;" width="108" x="954" y="387.5859"/><line style="stroke:#C4B5FD;stroke-width:1.0;" x1="954" x2="1062" y1="387.5859" y2="387.5859"/><line style="stroke:#C4B5FD;stroke-width:1.0;" x1="954" x2="1062" y1="400.3906" y2="400.3906"/><line style="stroke:#C4B5FD;stroke-width:1.0;" x1="954" x2="954" y1="387.5859" y2="400.3906"/><line style="stroke:#C4B5FD;stroke-width:1.0;" x1="1062" x2="1062" y1="387.5859" y2="400.3906"/><rect fill="#D8B4FE" height="12.8047" style="stroke:none;stroke-width:1.0;" width="220" x="1346" y="404.3906"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="1346" x2="1566" y1="404.3906" y2="404.3906"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="1346" x2="1566" y1="417.1953" y2="417.1953"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="1346" x2="1346" y1="404.3906" y2="417.1953"/><line style="stroke:#D8B4FE;stroke-width:1.0;" x1="1566" x2="1566" y1="404.3906" y2="417.1953"/><polygon fill="#7C3AED" points="1564,421.1953,1569,426.1953,1564,431.1953,1559,426.1953" style="stroke:#7C3AED;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="246" y="78.5073">Дорожка: Сервис Ставок</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="155" x="6" y="95.312">Проектирование и анализ</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="230" y="112.1167">Разработка сервиса</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="230" y="128.9214">API (CRUD+эндпойнт+Auth)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="230" y="145.7261">UI (формы+Auth)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="135" x="902" y="162.5308">Экспортер (CSV+SFTP)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="134" x="1126" y="179.3354">Тестирование сервиса</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="164" x="1458" y="196.1401">Документация (API+Deploy)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="246" y="212.9448">Дорожка: Кол-центр</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="230" y="229.7495">Доработка КЦ</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="678" y="246.5542">API клиент КЦ</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="898" y="263.3589">Тестирование КЦ</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="113" x="246" y="280.1636">Дорожка: Партнёр</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="730" y="296.9683">SFTP у партнёра (ключи)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="191" x="898" y="313.7729">Импорт (парсинг CSV+загрузка)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="1010" y="330.5776">Тесты у партнёра</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="163" x="246" y="347.3823">Дорожка: Инфраструктура</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="298" y="364.187">SFTP аккаунты (внутри)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="954" y="380.9917">Деплой сервиса</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="1066" y="397.7964">Мониторинг+Алёрты</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="186" x="1350" y="414.6011">Интеграционное тестирование</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="1572" y="430.0034">Релиз MVP</text><rect fill="#DDDDDD" height="130.0781" rx="7.5" ry="7.5" style="stroke:#8B5CF6;stroke-width:1.1;" width="261" x="1298" y="441.1953"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="1309" y="462.1904">Цвет</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="1359" y="462.1904">Тип</text><rect fill="#DDD6FE" height="16.2969" style="stroke:none;stroke-width:1.0;" width="50" x="1304" y="465.4922"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1304" y="478.4873"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="1358" y="478.4873">Разработка</text><rect fill="#C4B5FD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="50" x="1304" y="481.7891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1304" y="494.7842"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="1358" y="494.7842">API/Мониторинг</text><rect fill="#E9D5FF" height="16.2969" style="stroke:none;stroke-width:1.0;" width="50" x="1304" y="498.0859"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1304" y="511.0811"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="1358" y="511.0811">Партнёр/интеграции</text><rect fill="#D8B4FE" height="16.2969" style="stroke:none;stroke-width:1.0;" width="50" x="1304" y="514.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1304" y="527.3779"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="1358" y="527.3779">Тестирование</text><rect fill="#EDE9FE" height="16.2969" style="stroke:none;stroke-width:1.0;" width="50" x="1304" y="530.6797"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1304" y="543.6748"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="1358" y="543.6748">Аналитика/Документация</text><rect fill="#FFF4E6" height="16.2969" style="stroke:none;stroke-width:1.0;" width="50" x="1304" y="546.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1304" y="559.9717"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="1358" y="559.9717">Фон дорожки</text><line style="stroke:#000000;stroke-width:1.0;" x1="1304" x2="1553" y1="449.1953" y2="449.1953"/><line style="stroke:#000000;stroke-width:1.0;" x1="1304" x2="1553" y1="465.4922" y2="465.4922"/><line style="stroke:#000000;stroke-width:1.0;" x1="1304" x2="1553" y1="481.7891" y2="481.7891"/><line style="stroke:#000000;stroke-width:1.0;" x1="1304" x2="1553" y1="498.0859" y2="498.0859"/><line style="stroke:#000000;stroke-width:1.0;" x1="1304" x2="1553" y1="514.3828" y2="514.3828"/><line style="stroke:#000000;stroke-width:1.0;" x1="1304" x2="1553" y1="530.6797" y2="530.6797"/><line style="stroke:#000000;stroke-width:1.0;" x1="1304" x2="1553" y1="546.9766" y2="546.9766"/><line style="stroke:#000000;stroke-width:1.0;" x1="1304" x2="1553" y1="563.2734" y2="563.2734"/><line style="stroke:#000000;stroke-width:1.0;" x1="1304" x2="1304" y1="449.1953" y2="563.2734"/><line style="stroke:#000000;stroke-width:1.0;" x1="1354" x2="1354" y1="449.1953" y2="563.2734"/><line style="stroke:#000000;stroke-width:1.0;" x1="1553" x2="1553" y1="449.1953" y2="563.2734"/><!--MD5=[a5993c3e0d16836480335110c62d8e2f]
+@startgantt
+title RoadMap MVP (квартальная раскладка WBS)
+language ru
+
+
+
+language ru
+project starts 2025-09-01
+projectscale quarterly zoom 20
+hide footbox
+
+' Пурпурная палитра
+<style>
+ganttDiagram {
+  LineColor #8B5CF6
+  LineThickness 1.1
+  task { LineColor #8B5CF6; FontColor #1F1147 }
+  milestone { LineColor #6D28D9; FontColor #32135A }
+}
+</style>
+
+' - - - - - - - - - - - - - - - - - - - - Дорожка: Сервис Ставок - - - - - - - - - - - - - - - - - - - -
+[Дорожка: Сервис Ставок] as [LANE_BET] starts 2025-10-01 and ends 2025-12-31
+[LANE_BET] is colored in #FFF4E6
+
+[Проектирование и анализ] as [ANALYSIS] lasts 4 weeks and is colored in #EDE9FE
+[Разработка сервиса] as [DEV] lasts 12 weeks and is colored in #DDD6FE
+[DEV] starts at [ANALYSIS]'s end
+
+' Параллельные подпотоки из WBS
+[API (CRUD+эндпойнт+Auth)] as [API] lasts 8 weeks and is colored in #C4B5FD
+[API] starts at [DEV]'s start
+[UI (формы+Auth)] as [UI] lasts 6 weeks and is colored in #E9D5FF
+[UI] starts at [DEV]'s start
+[Экспортер (CSV+SFTP)] as [EXP] lasts 4 weeks and is colored in #D8B4FE
+[EXP] starts at [DEV]'s end
+
+[Тестирование сервиса] as [TEST_SVC] lasts 4 weeks and is colored in #D8B4FE
+[TEST_SVC] starts at [EXP]'s end
+
+[Документация (API+Deploy)] as [DOCS] lasts 2 weeks and is colored in #EDE9FE
+[DOCS] starts at [TEST_SVC]'s end
+
+' - - - - - - - - - - - - - - - - - - - - Дорожка: Система кол-центра - - - - - - - - - - - - - - - - - - - -
+[Дорожка: Кол-центр] as [LANE_CC] starts 2025-10-01 and ends 2025-12-31
+[LANE_CC] is colored in #FFF4E6
+
+[Доработка КЦ] as [CC] lasts 8 weeks and is colored in #C4B5FD
+[CC] starts at [ANALYSIS]'s end
+[API клиент КЦ] as [CC_API] lasts 2 weeks and is colored in #DDD6FE
+[CC_API] starts at [CC]'s end
+[Тестирование КЦ] as [TEST_CC] lasts 2 weeks and is colored in #D8B4FE
+[TEST_CC] starts at [CC_API]'s end
+
+' - - - - - - - - - - - - - - - - - - - - Дорожка: Партнёр - - - - - - - - - - - - - - - - - - - -
+[Дорожка: Партнёр] as [LANE_PART] starts 2025-10-01 and ends 2025-12-31
+[LANE_PART] is colored in #FFF4E6
+
+[SFTP у партнёра (ключи)] as [PART_SFTP] lasts 1 weeks and is colored in #E9D5FF
+[PART_SFTP] starts at [CC]'s end
+[Импорт (парсинг CSV+загрузка)] as [IMPORT] lasts 3 weeks and is colored in #E9D5FF
+[IMPORT] starts at [PART_SFTP]'s end
+[Тесты у партнёра] as [TEST_PART] lasts 2 weeks and is colored in #D8B4FE
+[TEST_PART] starts at [IMPORT]'s end
+
+' - - - - - - - - - - - - - - - - - - - - Дорожка: Инфраструктура - - - - - - - - - - - - - - - - - - - -
+[Дорожка: Инфраструктура] as [LANE_INFRA] starts 2025-10-01 and ends 2025-12-31
+[LANE_INFRA] is colored in #FFF4E6
+
+[SFTP аккаунты (внутри)] as [INFRA_SFTP] lasts 1 weeks and is colored in #EDE9FE
+[INFRA_SFTP] starts at 2025-10-01
+[Деплой сервиса] as [DEPLOY] lasts 1 weeks and is colored in #DDD6FE
+[DEPLOY] starts at [DEV]'s end
+[Мониторинг+Алёрты] as [MON] lasts 2 weeks and is colored in #C4B5FD
+[MON] starts at [DEPLOY]'s end
+
+' - - - - - - - - - - - - - - - - - - - - Интеграционное тестирование и релиз - - - - - - - - - - - - - - - - - - - -
+[Интеграционное тестирование] as [INT] lasts 4 weeks and is colored in #D8B4FE
+[INT] starts at [TEST_SVC]'s end
+[INT] starts at [TEST_CC]'s end
+[INT] starts at [TEST_PART]'s end
+
+[Релиз MVP] happens at [INT]'s end and is colored in #7C3AED
+
+legend right
+|= Цвет |= Тип |
+|<#DDD6FE>| Разработка |
+|<#C4B5FD>| API/Мониторинг |
+|<#E9D5FF>| Партнёр/интеграции |
+|<#D8B4FE>| Тестирование |
+|<#EDE9FE>| Аналитика/Документация |
+|<#FFF4E6>| Фон дорожки |
+endlegend
+@endgantt
+
+@startgantt
+title RoadMap MVP (квартальная раскладка WBS)
+language ru
+
+
+
+language ru
+project starts 2025-09-01
+projectscale quarterly zoom 20
+hide footbox
+
+<style>
+ganttDiagram {
+  LineColor #8B5CF6
+  LineThickness 1.1
+  task { LineColor #8B5CF6; FontColor #1F1147 }
+  milestone { LineColor #6D28D9; FontColor #32135A }
+}
+</style>
+
+[Дорожка: Сервис Ставок] as [LANE_BET] starts 2025-10-01 and ends 2025-12-31
+[LANE_BET] is colored in #FFF4E6
+
+[Проектирование и анализ] as [ANALYSIS] lasts 4 weeks and is colored in #EDE9FE
+[Разработка сервиса] as [DEV] lasts 12 weeks and is colored in #DDD6FE
+[DEV] starts at [ANALYSIS]'s end
+
+[API (CRUD+эндпойнт+Auth)] as [API] lasts 8 weeks and is colored in #C4B5FD
+[API] starts at [DEV]'s start
+[UI (формы+Auth)] as [UI] lasts 6 weeks and is colored in #E9D5FF
+[UI] starts at [DEV]'s start
+[Экспортер (CSV+SFTP)] as [EXP] lasts 4 weeks and is colored in #D8B4FE
+[EXP] starts at [DEV]'s end
+
+[Тестирование сервиса] as [TEST_SVC] lasts 4 weeks and is colored in #D8B4FE
+[TEST_SVC] starts at [EXP]'s end
+
+[Документация (API+Deploy)] as [DOCS] lasts 2 weeks and is colored in #EDE9FE
+[DOCS] starts at [TEST_SVC]'s end
+
+[Дорожка: Кол-центр] as [LANE_CC] starts 2025-10-01 and ends 2025-12-31
+[LANE_CC] is colored in #FFF4E6
+
+[Доработка КЦ] as [CC] lasts 8 weeks and is colored in #C4B5FD
+[CC] starts at [ANALYSIS]'s end
+[API клиент КЦ] as [CC_API] lasts 2 weeks and is colored in #DDD6FE
+[CC_API] starts at [CC]'s end
+[Тестирование КЦ] as [TEST_CC] lasts 2 weeks and is colored in #D8B4FE
+[TEST_CC] starts at [CC_API]'s end
+
+[Дорожка: Партнёр] as [LANE_PART] starts 2025-10-01 and ends 2025-12-31
+[LANE_PART] is colored in #FFF4E6
+
+[SFTP у партнёра (ключи)] as [PART_SFTP] lasts 1 weeks and is colored in #E9D5FF
+[PART_SFTP] starts at [CC]'s end
+[Импорт (парсинг CSV+загрузка)] as [IMPORT] lasts 3 weeks and is colored in #E9D5FF
+[IMPORT] starts at [PART_SFTP]'s end
+[Тесты у партнёра] as [TEST_PART] lasts 2 weeks and is colored in #D8B4FE
+[TEST_PART] starts at [IMPORT]'s end
+
+[Дорожка: Инфраструктура] as [LANE_INFRA] starts 2025-10-01 and ends 2025-12-31
+[LANE_INFRA] is colored in #FFF4E6
+
+[SFTP аккаунты (внутри)] as [INFRA_SFTP] lasts 1 weeks and is colored in #EDE9FE
+[INFRA_SFTP] starts at 2025-10-01
+[Деплой сервиса] as [DEPLOY] lasts 1 weeks and is colored in #DDD6FE
+[DEPLOY] starts at [DEV]'s end
+[Мониторинг+Алёрты] as [MON] lasts 2 weeks and is colored in #C4B5FD
+[MON] starts at [DEPLOY]'s end
+
+[Интеграционное тестирование] as [INT] lasts 4 weeks and is colored in #D8B4FE
+[INT] starts at [TEST_SVC]'s end
+[INT] starts at [TEST_CC]'s end
+[INT] starts at [TEST_PART]'s end
+
+[Релиз MVP] happens at [INT]'s end and is colored in #7C3AED
+
+legend right
+|= Цвет |= Тип |
+|<#DDD6FE>| Разработка |
+|<#C4B5FD>| API/Мониторинг |
+|<#E9D5FF>| Партнёр/интеграции |
+|<#D8B4FE>| Тестирование |
+|<#EDE9FE>| Аналитика/Документация |
+|<#FFF4E6>| Фон дорожки |
+endlegend
+@endgantt
+
+PlantUML version 1.2022.6(Tue Jun 21 17:34:49 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1368px" preserveAspectRatio="none" style="width:1503px;height:1368px;background:#FFFFFF;" version="1.1" viewBox="0 0 1503 1368" width="1503px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="35.6094" style="stroke:#FFFFFF;stroke-width:0.0;" width="819" x="340.5833" y="10"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="809" x="345.5833" y="35.4209">BPMN-диаграмма: Процесс открытия депозита (исправленная)</text><rect fill="#FFFFFF" height="1309.7188" style="stroke:#000000;stroke-width:1.0;" width="1070.5" x="266" y="52.6094"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="128" x="737.25" y="64.6763">Процессы Банка</text><rect fill="#FFFFFF" height="359.1328" style="stroke:#000000;stroke-width:1.0;" width="1027" x="15" y="399.1016"/><rect fill="#FFFFFF" height="43.9375" style="stroke:none;stroke-width:1.0;" width="1027" x="15" y="714.2969"/><rect fill="#FFFFFF" height="319" style="stroke:#000000;stroke-width:1.0;" width="907" x="534.5" y="843.5"/><rect fill="#FFFFFF" height="216.6016" style="stroke:#000000;stroke-width:1.0;" width="887" x="544.5" y="909.7656"/><rect fill="#FFFFFF" height="56.9375" style="stroke:none;stroke-width:1.0;" width="887" x="544.5" y="1069.4297"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="69" x2="69" y1="103.0391" y2="1328.0313"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="220" x2="220" y1="103.0391" y2="1328.0313"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="339" x2="339" y1="103.0391" y2="1328.0313"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="652.5" x2="652.5" y1="103.0391" y2="1328.0313"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="922" x2="922" y1="103.0391" y2="1328.0313"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1223.5" x2="1223.5" y1="103.0391" y2="1328.0313"/><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="69" x="35" y="71.7422"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="55" x="42" y="91.7373">Клиент</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="69" x="35" y="1327.0313"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="55" x="42" y="1347.0264">Клиент</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="49" x="196" y="71.7422"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="35" x="203" y="91.7373">Банк</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="49" x="196" y="1327.0313"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="35" x="203" y="1347.0264">Банк</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="119" x="280" y="71.7422"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="105" x="287" y="91.7373">Сотрудник КЦ</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="119" x="280" y="1327.0313"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="105" x="287" y="1347.0264">Сотрудник КЦ</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="176" x="564.5" y="71.7422"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="162" x="571.5" y="91.7373">Сотрудник Бэк-офиса</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="176" x="564.5" y="1327.0313"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="162" x="571.5" y="1347.0264">Сотрудник Бэк-офиса</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="199" x="823" y="71.7422"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="185" x="830" y="91.7373">Сотрудник Фронт-офиса</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="199" x="823" y="1327.0313"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="185" x="830" y="1347.0264">Сотрудник Фронт-офиса</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="198" x="1124.5" y="71.7422"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="184" x="1131.5" y="91.7373">Сотрудник Кред. отдела</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="198" x="1124.5" y="1327.0313"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="184" x="1131.5" y="1347.0264">Сотрудник Кред. отдела</text><rect fill="#FFFFFF" height="3" style="stroke:#FFFFFF;stroke-width:1.0;" width="1491.1667" x="5" y="133.6055"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1496.1667" y1="133.6055" y2="133.6055"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1496.1667" y1="136.6055" y2="136.6055"/><rect fill="#FFFFFF" height="23.1328" style="stroke:#000000;stroke-width:1.0;" width="262" x="619.5833" y="123.0391"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="243" x="625.5833" y="139.106">Ежедневная подготовка ставок</text><line style="stroke:#000000;stroke-width:1.0;" x1="1223.5" x2="1265.5" y1="181.3711" y2="181.3711"/><line style="stroke:#000000;stroke-width:1.0;" x1="1265.5" x2="1265.5" y1="181.3711" y2="194.3711"/><line style="stroke:#000000;stroke-width:1.0;" x1="1224.5" x2="1265.5" y1="194.3711" y2="194.3711"/><polygon fill="#000000" points="1234.5,190.3711,1224.5,194.3711,1234.5,198.3711,1230.5,194.3711" style="stroke:#000000;stroke-width:1.0;"/><path d="M1233.6667,167.4544 L1233.6667,168.5378 L1234.75,168.5378 L1234.75,168.5703 C1232.9083,168.8303 1231.5,170.4228 1231.5,172.3294 C1231.5,174.4203 1233.2008,176.1211 1235.2917,176.1211 C1237.3825,176.1211 1239.0833,174.4203 1239.0833,172.3294 C1239.0833,171.8419 1238.975,171.3869 1238.8125,170.9753 L1237.8267,171.3869 C1237.9458,171.7011 1238,172.0044 1238,172.3403 C1238,173.8461 1236.7975,175.0486 1235.2917,175.0486 C1233.7858,175.0486 1232.5833,173.8461 1232.5833,172.3403 C1232.5833,170.8344 1233.7858,169.6319 1235.2917,169.6319 C1235.6167,169.6319 1235.9308,169.6861 1236.245,169.8053 L1236.6133,168.7869 C1236.3642,168.7003 1236.1042,168.6569 1235.8333,168.6136 L1235.8333,168.5486 L1236.9167,168.5486 L1236.9167,167.4653 L1233.6667,167.4653 M1239.0833,168.7111 C1235.1292,171.7553 1235.1292,171.7553 1234.9233,171.9611 C1234.7175,172.1778 1234.7175,172.4919 1234.9233,172.7086 C1235.1292,172.9253 1235.4542,172.9253 1235.6708,172.7086 C1235.8875,172.4919 1239.0942,168.7111 1239.0942,168.7111 " fill="#000000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="244" x="1245.1667" y="176.3052">Запуск по расписанию (ежедневно)</text><path d="M977,161.1719 L977,201.1719 L1218,201.1719 L1218,171.1719 L1208,161.1719 L977,161.1719 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M1208,161.1719 L1208,171.1719 L1218,171.1719 L1208,161.1719 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="220" x="983" y="178.2388">Ключевая бизнес-проблема:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="211" x="983" y="193.3716">Ручной, непрозрачный процесс</text><line style="stroke:#000000;stroke-width:1.0;" x1="1223.5" x2="1265.5" y1="227.5703" y2="227.5703"/><line style="stroke:#000000;stroke-width:1.0;" x1="1265.5" x2="1265.5" y1="227.5703" y2="240.5703"/><line style="stroke:#000000;stroke-width:1.0;" x1="1224.5" x2="1265.5" y1="240.5703" y2="240.5703"/><polygon fill="#000000" points="1234.5,236.5703,1224.5,240.5703,1234.5,244.5703,1230.5,240.5703" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="163" x="1230.5" y="222.5044">Анализ портфеля в АБС</text><line style="stroke:#000000;stroke-width:1.0;" x1="1223.5" x2="1265.5" y1="269.7031" y2="269.7031"/><line style="stroke:#000000;stroke-width:1.0;" x1="1265.5" x2="1265.5" y1="269.7031" y2="282.7031"/><line style="stroke:#000000;stroke-width:1.0;" x1="1224.5" x2="1265.5" y1="282.7031" y2="282.7031"/><polygon fill="#000000" points="1234.5,278.7031,1224.5,282.7031,1234.5,286.7031,1230.5,282.7031" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="209" x="1230.5" y="264.6372">Расчет базовых ставок в Excel</text><polygon fill="#000000" points="663.5,307.8359,653.5,311.8359,663.5,315.8359,659.5,311.8359" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="657.5" x2="1222.5" y1="311.8359" y2="311.8359"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="45" x="669.5" y="306.77">Email:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="240" x="718.5" y="306.77">Отправка Excel-файла со ставками</text><rect fill="#FFFFFF" height="3" style="stroke:#FFFFFF;stroke-width:1.0;" width="1491.1667" x="5" y="340.4023"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1496.1667" y1="340.4023" y2="340.4023"/><line style="stroke:#000000;stroke-width:0.5;" x1="5" x2="1496.1667" y1="343.4023" y2="343.4023"/><rect fill="#FFFFFF" height="23.1328" style="stroke:#000000;stroke-width:1.0;" width="261" x="620.0833" y="329.8359"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="242" x="626.0833" y="345.9028">Обработка обращения клиента</text><polygon fill="#000000" points="208.5,380.1016,218.5,384.1016,208.5,388.1016,212.5,384.1016" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="69.5" x2="214.5" y1="384.1016" y2="384.1016"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="127" x="76.5" y="379.0356">Обращение в Банк</text><path d="M15,399.1016 L79,399.1016 L79,406.2344 L69,416.2344 L15,416.2344 L15,399.1016 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="359.1328" style="stroke:#000000;stroke-width:1.0;" width="1027" x="15" y="399.1016"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="30" y="412.1685">alt</text><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="169" x="94" y="411.312">[Обращение в кол-центр]</text><polygon fill="#000000" points="327.5,433.3672,337.5,437.3672,327.5,441.3672,331.5,437.3672" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="69.5" x2="333.5" y1="437.3672" y2="437.3672"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="179" x="76.5" y="432.3013">Звонок для консультации</text><line style="stroke:#000000;stroke-width:1.0;" x1="339.5" x2="381.5" y1="466.5" y2="466.5"/><line style="stroke:#000000;stroke-width:1.0;" x1="381.5" x2="381.5" y1="466.5" y2="479.5"/><line style="stroke:#000000;stroke-width:1.0;" x1="340.5" x2="381.5" y1="479.5" y2="479.5"/><polygon fill="#000000" points="350.5,475.5,340.5,479.5,350.5,483.5,346.5,479.5" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="137" x="346.5" y="461.4341">Завести обращение</text><line style="stroke:#000000;stroke-width:1.0;" x1="339.5" x2="381.5" y1="508.6328" y2="508.6328"/><line style="stroke:#000000;stroke-width:1.0;" x1="381.5" x2="381.5" y1="508.6328" y2="521.6328"/><line style="stroke:#000000;stroke-width:1.0;" x1="340.5" x2="381.5" y1="521.6328" y2="521.6328"/><polygon fill="#000000" points="350.5,517.6328,340.5,521.6328,350.5,525.6328,346.5,521.6328" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="104" x="346.5" y="503.5669">[Система КЦ]</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="191" x="454.5" y="503.5669">Передать обращение в АБС</text><path d="M657,496 L657,521 L758,521 L758,506 L748,496 L657,496 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M748,496 L748,506 L758,506 L748,496 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="80" x="663" y="513.0669">Service Task</text><line style="stroke:#000000;stroke-width:1.0;" x1="652.5" x2="694.5" y1="550.7656" y2="550.7656"/><line style="stroke:#000000;stroke-width:1.0;" x1="694.5" x2="694.5" y1="550.7656" y2="563.7656"/><line style="stroke:#000000;stroke-width:1.0;" x1="653.5" x2="694.5" y1="563.7656" y2="563.7656"/><polygon fill="#000000" points="663.5,559.7656,653.5,563.7656,663.5,567.7656,659.5,563.7656" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="42" x="659.5" y="545.6997">[АБС]</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="176" x="705.5" y="545.6997">Обработать заявку из КЦ</text><path d="M893,538.1328 L893,563.1328 L994,563.1328 L994,548.1328 L984,538.1328 L893,538.1328 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M984,538.1328 L984,548.1328 L994,548.1328 L984,538.1328 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="80" x="899" y="555.1997">Service Task</text><line style="stroke:#000000;stroke-width:1.0;" x1="652.5" x2="694.5" y1="592.8984" y2="592.8984"/><line style="stroke:#000000;stroke-width:1.0;" x1="694.5" x2="694.5" y1="592.8984" y2="605.8984"/><line style="stroke:#000000;stroke-width:1.0;" x1="653.5" x2="694.5" y1="605.8984" y2="605.8984"/><polygon fill="#000000" points="663.5,601.8984,653.5,605.8984,663.5,609.8984,659.5,605.8984" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="256" x="659.5" y="587.8325">Расчет ставки на основе Excel-файла</text><line style="stroke:#000000;stroke-width:1.0;" x1="652.5" x2="694.5" y1="635.0313" y2="635.0313"/><line style="stroke:#000000;stroke-width:1.0;" x1="694.5" x2="694.5" y1="635.0313" y2="648.0313"/><line style="stroke:#000000;stroke-width:1.0;" x1="653.5" x2="694.5" y1="648.0313" y2="648.0313"/><polygon fill="#000000" points="663.5,644.0313,653.5,648.0313,663.5,652.0313,659.5,648.0313" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="42" x="659.5" y="629.9653">[АБС]</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="162" x="705.5" y="629.9653">Ввести ставку в заявку</text><polygon fill="#000000" points="80.5,673.1641,70.5,677.1641,80.5,681.1641,76.5,677.1641" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="74.5" x2="651.5" y1="677.1641" y2="677.1641"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="95" x="86.5" y="672.0981">[СМС-шлюз]</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="195" x="185.5" y="672.0981">Отправить СМС с условиями</text><polygon fill="#000000" points="910.5,702.2969,920.5,706.2969,910.5,710.2969,914.5,706.2969" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="69.5" x2="916.5" y1="706.2969" y2="706.2969"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="313" x="76.5" y="701.231">Прийти в отделение с информацией о ставке</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="15" x2="1042" y1="715.2969" y2="715.2969"/><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="184" x="20" y="725.5073">[Прямой визит в отделение]</text><polygon fill="#000000" points="910.5,746.2344,920.5,750.2344,910.5,754.2344,914.5,750.2344" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="69.5" x2="916.5" y1="750.2344" y2="750.2344"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="141" x="76.5" y="745.1685">Прийти в отделение</text><line style="stroke:#000000;stroke-width:1.0;" x1="922.5" x2="964.5" y1="786.3672" y2="786.3672"/><line style="stroke:#000000;stroke-width:1.0;" x1="964.5" x2="964.5" y1="786.3672" y2="799.3672"/><line style="stroke:#000000;stroke-width:1.0;" x1="923.5" x2="964.5" y1="799.3672" y2="799.3672"/><polygon fill="#000000" points="933.5,795.3672,923.5,799.3672,933.5,803.3672,929.5,799.3672" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="42" x="929.5" y="781.3013">[АБС]</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="154" x="975.5" y="781.3013">Найти/создать заявку</text><polygon fill="#000000" points="663.5,824.5,653.5,828.5,663.5,832.5,659.5,828.5" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="657.5" x2="921.5" y1="828.5" y2="828.5"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="45" x="669.5" y="823.4341">Email:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="100" x="718.5" y="823.4341">Запрос ставки</text><path d="M534.5,843.5 L808.5,843.5 L808.5,850.6328 L798.5,860.6328 L534.5,860.6328 L534.5,843.5 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="319" style="stroke:#000000;stroke-width:1.0;" width="907" x="534.5" y="843.5"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="229" x="549.5" y="856.5669">Процесс согласования ставки</text><line style="stroke:#000000;stroke-width:1.0;" x1="652.5" x2="694.5" y1="881.7656" y2="881.7656"/><line style="stroke:#000000;stroke-width:1.0;" x1="694.5" x2="694.5" y1="881.7656" y2="894.7656"/><line style="stroke:#000000;stroke-width:1.0;" x1="653.5" x2="694.5" y1="894.7656" y2="894.7656"/><polygon fill="#000000" points="663.5,890.7656,653.5,894.7656,663.5,898.7656,659.5,894.7656" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="99" x="659.5" y="876.6997">Анализ заявки</text><path d="M544.5,909.7656 L608.5,909.7656 L608.5,916.8984 L598.5,926.8984 L544.5,926.8984 L544.5,909.7656 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="216.6016" style="stroke:#000000;stroke-width:1.0;" width="887" x="544.5" y="909.7656"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="559.5" y="922.8325">alt</text><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="181" x="623.5" y="921.9761">[Требуются спец. условия?]</text><polygon fill="#000000" points="1211.5,944.0313,1221.5,948.0313,1211.5,952.0313,1215.5,948.0313" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="652.5" x2="1217.5" y1="948.0313" y2="948.0313"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="45" x="659.5" y="942.9653">Email:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="140" x="708.5" y="942.9653">Запрос спец. ставки</text><line style="stroke:#000000;stroke-width:1.0;" x1="1223.5" x2="1265.5" y1="977.1641" y2="977.1641"/><line style="stroke:#000000;stroke-width:1.0;" x1="1265.5" x2="1265.5" y1="977.1641" y2="990.1641"/><line style="stroke:#000000;stroke-width:1.0;" x1="1224.5" x2="1265.5" y1="990.1641" y2="990.1641"/><polygon fill="#000000" points="1234.5,986.1641,1224.5,990.1641,1234.5,994.1641,1230.5,990.1641" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="42" x="1230.5" y="972.0981">[АБС]</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="109" x="1276.5" y="972.0981">Анализ клиента</text><line style="stroke:#000000;stroke-width:1.0;" x1="1223.5" x2="1265.5" y1="1019.2969" y2="1019.2969"/><line style="stroke:#000000;stroke-width:1.0;" x1="1265.5" x2="1265.5" y1="1019.2969" y2="1032.2969"/><line style="stroke:#000000;stroke-width:1.0;" x1="1224.5" x2="1265.5" y1="1032.2969" y2="1032.2969"/><polygon fill="#000000" points="1234.5,1028.2969,1224.5,1032.2969,1234.5,1036.2969,1230.5,1032.2969" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="189" x="1230.5" y="1014.231">Расчет спец. ставки в Excel</text><polygon fill="#000000" points="663.5,1057.4297,653.5,1061.4297,663.5,1065.4297,659.5,1061.4297" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="657.5" x2="1222.5" y1="1061.4297" y2="1061.4297"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="45" x="669.5" y="1056.3638">Email:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="163" x="718.5" y="1056.3638">Ответ со спец. ставкой</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="544.5" x2="1431.5" y1="1070.4297" y2="1070.4297"/><text fill="#000000" font-family="Verdana" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="154" x="549.5" y="1080.6401">[Стандартные условия]</text><line style="stroke:#000000;stroke-width:1.0;" x1="652.5" x2="694.5" y1="1105.3672" y2="1105.3672"/><line style="stroke:#000000;stroke-width:1.0;" x1="694.5" x2="694.5" y1="1105.3672" y2="1118.3672"/><line style="stroke:#000000;stroke-width:1.0;" x1="653.5" x2="694.5" y1="1118.3672" y2="1118.3672"/><polygon fill="#000000" points="663.5,1114.3672,653.5,1118.3672,663.5,1122.3672,659.5,1118.3672" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="256" x="659.5" y="1100.3013">Расчет ставки на основе Excel-файла</text><polygon fill="#000000" points="910.5,1150.5,920.5,1154.5,910.5,1158.5,914.5,1154.5" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="652.5" x2="916.5" y1="1154.5" y2="1154.5"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="45" x="659.5" y="1149.4341">Email:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="123" x="708.5" y="1149.4341">Ответ со ставкой</text><polygon fill="#000000" points="80.5,1189.6328,70.5,1193.6328,80.5,1197.6328,76.5,1193.6328" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="74.5" x2="921.5" y1="1193.6328" y2="1193.6328"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="116" x="86.5" y="1188.5669">Озвучить ставку</text><path d="M927,1174.5 L927,1199.5 L1236,1199.5 L1236,1184.5 L1226,1174.5 L927,1174.5 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M1226,1174.5 L1226,1184.5 L1236,1184.5 L1226,1174.5 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="288" x="933" y="1191.5669">Время ожидания клиента: 20-60 мин.</text><polygon fill="#000000" points="910.5,1221.7656,920.5,1225.7656,910.5,1229.7656,914.5,1225.7656" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="69.5" x2="916.5" y1="1225.7656" y2="1225.7656"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="146" x="76.5" y="1220.6997">Согласовать условия</text><line style="stroke:#000000;stroke-width:1.0;" x1="922.5" x2="964.5" y1="1254.8984" y2="1254.8984"/><line style="stroke:#000000;stroke-width:1.0;" x1="964.5" x2="964.5" y1="1254.8984" y2="1267.8984"/><line style="stroke:#000000;stroke-width:1.0;" x1="923.5" x2="964.5" y1="1267.8984" y2="1267.8984"/><polygon fill="#000000" points="933.5,1263.8984,923.5,1267.8984,933.5,1271.8984,929.5,1267.8984" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="42" x="929.5" y="1249.8325">[АБС]</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="121" x="975.5" y="1249.8325">Создать депозит</text><line style="stroke:#000000;stroke-width:1.0;" x1="922.5" x2="964.5" y1="1297.0313" y2="1297.0313"/><line style="stroke:#000000;stroke-width:1.0;" x1="964.5" x2="964.5" y1="1297.0313" y2="1310.0313"/><line style="stroke:#000000;stroke-width:1.0;" x1="923.5" x2="964.5" y1="1310.0313" y2="1310.0313"/><polygon fill="#000000" points="933.5,1306.0313,923.5,1310.0313,933.5,1314.0313,929.5,1310.0313" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="42" x="929.5" y="1291.9653">[АБС]</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="241" x="975.5" y="1291.9653">Подписать и загрузить документы</text><!--MD5=[33d9008931e46b7c2070cb06c871b349]
+@startuml
+!theme plain
+title BPMN-диаграмма: Процесс открытия депозита (исправленная)
+
+' Используем пулы для разделения участников
+participant "Клиент" as Client
+participant "Банк" as Bank
+
+box "Процессы Банка" #White
+    participant "Сотрудник КЦ" as CallCenterAgent
+    participant "Сотрудник Бэк-офиса" as BackOfficeAgent
+    participant "Сотрудник Фронт-офиса" as FrontOfficeAgent
+    participant "Сотрудник Кред. отдела" as CreditAgent
+end box
+
+' - - - Процесс 1: Ежедневная подготовка ставок (ранее отсутствовал) - - -
+== Ежедневная подготовка ставок ==
+CreditAgent -> CreditAgent: <&timer> Запуск по расписанию (ежедневно)
+note left: **Ключевая бизнес-проблема:**\nРучной, непрозрачный процесс
+CreditAgent -> CreditAgent: Анализ портфеля в АБС
+CreditAgent -> CreditAgent: Расчет базовых ставок в Excel
+CreditAgent -> BackOfficeAgent: **Email:** Отправка Excel-файла со ставками
+
+' - - - Процесс 2: Обработка обращения клиента - - -
+== Обработка обращения клиента ==
+
+Client -> Bank: Обращение в Банк
+alt Обращение в кол-центр
+    Client -> CallCenterAgent: Звонок для консультации
+    CallCenterAgent -> CallCenterAgent: Завести обращение
+    CallCenterAgent -> CallCenterAgent: **[Система КЦ]** Передать обращение в АБС
+    note right: Service Task
+    BackOfficeAgent -> BackOfficeAgent: **[АБС]** Обработать заявку из КЦ
+    note right: Service Task
+    BackOfficeAgent -> BackOfficeAgent: Расчет ставки на основе Excel-файла
+    BackOfficeAgent -> BackOfficeAgent: **[АБС]** Ввести ставку в заявку
+    BackOfficeAgent -> Client: **[СМС-шлюз]** Отправить СМС с условиями
+    Client -> FrontOfficeAgent: Прийти в отделение с информацией о ставке
+else Прямой визит в отделение
+    Client -> FrontOfficeAgent: Прийти в отделение
+end
+
+FrontOfficeAgent -> FrontOfficeAgent: **[АБС]** Найти/создать заявку
+FrontOfficeAgent -> BackOfficeAgent: **Email:** Запрос ставки
+
+group Процесс согласования ставки
+    BackOfficeAgent -> BackOfficeAgent: Анализ заявки
+    alt Требуются спец. условия?
+        BackOfficeAgent -> CreditAgent: **Email:** Запрос спец. ставки
+        CreditAgent -> CreditAgent: **[АБС]** Анализ клиента
+        CreditAgent -> CreditAgent: Расчет спец. ставки в Excel
+        CreditAgent -> BackOfficeAgent: **Email:** Ответ со спец. ставкой
+    else Стандартные условия
+        BackOfficeAgent -> BackOfficeAgent: Расчет ставки на основе Excel-файла
+    end
+    BackOfficeAgent -> FrontOfficeAgent: **Email:** Ответ со ставкой
+end
+
+FrontOfficeAgent -> Client: Озвучить ставку
+note right: **Время ожидания клиента: 20-60 мин.**
+Client -> FrontOfficeAgent: Согласовать условия
+
+FrontOfficeAgent -> FrontOfficeAgent: **[АБС]** Создать депозит
+FrontOfficeAgent -> FrontOfficeAgent: **[АБС]** Подписать и загрузить документы
+
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor black
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+title BPMN-диаграмма: Процесс открытия депозита (исправленная)
+
+participant "Клиент" as Client
+participant "Банк" as Bank
+
+box "Процессы Банка" #White
+    participant "Сотрудник КЦ" as CallCenterAgent
+    participant "Сотрудник Бэк-офиса" as BackOfficeAgent
+    participant "Сотрудник Фронт-офиса" as FrontOfficeAgent
+    participant "Сотрудник Кред. отдела" as CreditAgent
+end box
+
+== Ежедневная подготовка ставок ==
+CreditAgent -> CreditAgent: <&timer> Запуск по расписанию (ежедневно)
+note left: **Ключевая бизнес-проблема:**\nРучной, непрозрачный процесс
+CreditAgent -> CreditAgent: Анализ портфеля в АБС
+CreditAgent -> CreditAgent: Расчет базовых ставок в Excel
+CreditAgent -> BackOfficeAgent: **Email:** Отправка Excel-файла со ставками
+
+== Обработка обращения клиента ==
+
+Client -> Bank: Обращение в Банк
+alt Обращение в кол-центр
+    Client -> CallCenterAgent: Звонок для консультации
+    CallCenterAgent -> CallCenterAgent: Завести обращение
+    CallCenterAgent -> CallCenterAgent: **[Система КЦ]** Передать обращение в АБС
+    note right: Service Task
+    BackOfficeAgent -> BackOfficeAgent: **[АБС]** Обработать заявку из КЦ
+    note right: Service Task
+    BackOfficeAgent -> BackOfficeAgent: Расчет ставки на основе Excel-файла
+    BackOfficeAgent -> BackOfficeAgent: **[АБС]** Ввести ставку в заявку
+    BackOfficeAgent -> Client: **[СМС-шлюз]** Отправить СМС с условиями
+    Client -> FrontOfficeAgent: Прийти в отделение с информацией о ставке
+else Прямой визит в отделение
+    Client -> FrontOfficeAgent: Прийти в отделение
+end
+
+FrontOfficeAgent -> FrontOfficeAgent: **[АБС]** Найти/создать заявку
+FrontOfficeAgent -> BackOfficeAgent: **Email:** Запрос ставки
+
+group Процесс согласования ставки
+    BackOfficeAgent -> BackOfficeAgent: Анализ заявки
+    alt Требуются спец. условия?
+        BackOfficeAgent -> CreditAgent: **Email:** Запрос спец. ставки
+        CreditAgent -> CreditAgent: **[АБС]** Анализ клиента
+        CreditAgent -> CreditAgent: Расчет спец. ставки в Excel
+        CreditAgent -> BackOfficeAgent: **Email:** Ответ со спец. ставкой
+    else Стандартные условия
+        BackOfficeAgent -> BackOfficeAgent: Расчет ставки на основе Excel-файла
+    end
+    BackOfficeAgent -> FrontOfficeAgent: **Email:** Ответ со ставкой
+end
+
+FrontOfficeAgent -> Client: Озвучить ставку
+note right: **Время ожидания клиента: 20-60 мин.**
+Client -> FrontOfficeAgent: Согласовать условия
+
+FrontOfficeAgent -> FrontOfficeAgent: **[АБС]** Создать депозит
+FrontOfficeAgent -> FrontOfficeAgent: **[АБС]** Подписать и загрузить документы
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 17:34:49 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

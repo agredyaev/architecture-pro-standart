@@ -1,0 +1,66 @@
+@startuml
+!theme plain
+title BPMN-диаграмма: Процесс открытия депозита (исправленная)
+
+' Используем пулы для разделения участников
+participant "Клиент" as Client
+participant "Банк" as Bank
+
+box "Процессы Банка" #White
+    participant "Сотрудник КЦ" as CallCenterAgent
+    participant "Сотрудник Бэк-офиса" as BackOfficeAgent
+    participant "Сотрудник Фронт-офиса" as FrontOfficeAgent
+    participant "Сотрудник Кред. отдела" as CreditAgent
+end box
+
+' --- Процесс 1: Ежедневная подготовка ставок (ранее отсутствовал) ---
+== Ежедневная подготовка ставок ==
+CreditAgent -> CreditAgent: <&timer> Запуск по расписанию (ежедневно)
+note left: **Ключевая бизнес-проблема:**\nРучной, непрозрачный процесс
+CreditAgent -> CreditAgent: Анализ портфеля в АБС
+CreditAgent -> CreditAgent: Расчет базовых ставок в Excel
+CreditAgent -> BackOfficeAgent: **Email:** Отправка Excel-файла со ставками
+
+' --- Процесс 2: Обработка обращения клиента ---
+== Обработка обращения клиента ==
+
+Client -> Bank: Обращение в Банк
+alt Обращение в кол-центр
+    Client -> CallCenterAgent: Звонок для консультации
+    CallCenterAgent -> CallCenterAgent: Завести обращение
+    CallCenterAgent -> CallCenterAgent: **[Система КЦ]** Передать обращение в АБС
+    note right: Service Task
+    BackOfficeAgent -> BackOfficeAgent: **[АБС]** Обработать заявку из КЦ
+    note right: Service Task
+    BackOfficeAgent -> BackOfficeAgent: Расчет ставки на основе Excel-файла
+    BackOfficeAgent -> BackOfficeAgent: **[АБС]** Ввести ставку в заявку
+    BackOfficeAgent -> Client: **[СМС-шлюз]** Отправить СМС с условиями
+    Client -> FrontOfficeAgent: Прийти в отделение с информацией о ставке
+else Прямой визит в отделение
+    Client -> FrontOfficeAgent: Прийти в отделение
+end
+
+FrontOfficeAgent -> FrontOfficeAgent: **[АБС]** Найти/создать заявку
+FrontOfficeAgent -> BackOfficeAgent: **Email:** Запрос ставки
+
+group Процесс согласования ставки
+    BackOfficeAgent -> BackOfficeAgent: Анализ заявки
+    alt Требуются спец. условия?
+        BackOfficeAgent -> CreditAgent: **Email:** Запрос спец. ставки
+        CreditAgent -> CreditAgent: **[АБС]** Анализ клиента
+        CreditAgent -> CreditAgent: Расчет спец. ставки в Excel
+        CreditAgent -> BackOfficeAgent: **Email:** Ответ со спец. ставкой
+    else Стандартные условия
+        BackOfficeAgent -> BackOfficeAgent: Расчет ставки на основе Excel-файла
+    end
+    BackOfficeAgent -> FrontOfficeAgent: **Email:** Ответ со ставкой
+end
+
+FrontOfficeAgent -> Client: Озвучить ставку
+note right: **Время ожидания клиента: 20-60 мин.**
+Client -> FrontOfficeAgent: Согласовать условия
+
+FrontOfficeAgent -> FrontOfficeAgent: **[АБС]** Создать депозит
+FrontOfficeAgent -> FrontOfficeAgent: **[АБС]** Подписать и загрузить документы
+
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+!include <C4/C4_Context>
+
+title Диаграмма системного ландшафта (C4 Level 1) с фокусом на "Сервис Ставок"
+
+Person(back_office_depo, "Сотрудник бэк-офиса")
+
+System_Boundary(bank_system, "IT-система банка 'Стандарт'") {
+    System(rates_service, "Сервис Ставок", "Централизованное управление и предоставление депозитных ставок")
+    System(cc_system, "Система кол-центра")
+    System(api_gateway, "API Gateway")
+}
+
+System_Ext(partner_cc_system, "Система партнёрского кол-центра")
+
+Rel(back_office_depo, rates_service, "Управляет ставками через UI")
+Rel(cc_system, api_gateway, "Запрашивает ставки")
+Rel(api_gateway, rates_service, "Проксирует запрос")
+Rel(rates_service, partner_cc_system, "Выгружает файл со ставками", "SFTP")
+
+@enduml

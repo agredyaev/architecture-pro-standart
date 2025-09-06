@@ -1,0 +1,94 @@
+@startgantt
+title RoadMap MVP (квартальная раскладка WBS)
+language ru
+
+
+
+language ru
+project starts 2025-09-01
+projectscale quarterly zoom 20
+hide footbox
+
+' Пурпурная палитра
+<style>
+ganttDiagram {
+  LineColor #8B5CF6
+  LineThickness 1.1
+  task { LineColor #8B5CF6; FontColor #1F1147 }
+  milestone { LineColor #6D28D9; FontColor #32135A }
+}
+</style>
+
+' -------------------- Дорожка: Сервис Ставок --------------------
+[Дорожка: Сервис Ставок] as [LANE_BET] starts 2025-10-01 and ends 2025-12-31
+[LANE_BET] is colored in #FFF4E6
+
+[Проектирование и анализ] as [ANALYSIS] lasts 4 weeks and is colored in #EDE9FE
+[Разработка сервиса] as [DEV] lasts 12 weeks and is colored in #DDD6FE
+[DEV] starts at [ANALYSIS]'s end
+
+' Параллельные подпотоки из WBS
+[API (CRUD+эндпойнт+Auth)] as [API] lasts 8 weeks and is colored in #C4B5FD
+[API] starts at [DEV]'s start
+[UI (формы+Auth)] as [UI] lasts 6 weeks and is colored in #E9D5FF
+[UI] starts at [DEV]'s start
+[Экспортер (CSV+SFTP)] as [EXP] lasts 4 weeks and is colored in #D8B4FE
+[EXP] starts at [DEV]'s end
+
+[Тестирование сервиса] as [TEST_SVC] lasts 4 weeks and is colored in #D8B4FE
+[TEST_SVC] starts at [EXP]'s end
+
+[Документация (API+Deploy)] as [DOCS] lasts 2 weeks and is colored in #EDE9FE
+[DOCS] starts at [TEST_SVC]'s end
+
+' -------------------- Дорожка: Система кол-центра --------------------
+[Дорожка: Кол-центр] as [LANE_CC] starts 2025-10-01 and ends 2025-12-31
+[LANE_CC] is colored in #FFF4E6
+
+[Доработка КЦ] as [CC] lasts 8 weeks and is colored in #C4B5FD
+[CC] starts at [ANALYSIS]'s end
+[API клиент КЦ] as [CC_API] lasts 2 weeks and is colored in #DDD6FE
+[CC_API] starts at [CC]'s end
+[Тестирование КЦ] as [TEST_CC] lasts 2 weeks and is colored in #D8B4FE
+[TEST_CC] starts at [CC_API]'s end
+
+' -------------------- Дорожка: Партнёр --------------------
+[Дорожка: Партнёр] as [LANE_PART] starts 2025-10-01 and ends 2025-12-31
+[LANE_PART] is colored in #FFF4E6
+
+[SFTP у партнёра (ключи)] as [PART_SFTP] lasts 1 weeks and is colored in #E9D5FF
+[PART_SFTP] starts at [CC]'s end
+[Импорт (парсинг CSV+загрузка)] as [IMPORT] lasts 3 weeks and is colored in #E9D5FF
+[IMPORT] starts at [PART_SFTP]'s end
+[Тесты у партнёра] as [TEST_PART] lasts 2 weeks and is colored in #D8B4FE
+[TEST_PART] starts at [IMPORT]'s end
+
+' -------------------- Дорожка: Инфраструктура --------------------
+[Дорожка: Инфраструктура] as [LANE_INFRA] starts 2025-10-01 and ends 2025-12-31
+[LANE_INFRA] is colored in #FFF4E6
+
+[SFTP аккаунты (внутри)] as [INFRA_SFTP] lasts 1 weeks and is colored in #EDE9FE
+[INFRA_SFTP] starts at 2025-10-01
+[Деплой сервиса] as [DEPLOY] lasts 1 weeks and is colored in #DDD6FE
+[DEPLOY] starts at [DEV]'s end
+[Мониторинг+Алёрты] as [MON] lasts 2 weeks and is colored in #C4B5FD
+[MON] starts at [DEPLOY]'s end
+
+' -------------------- Интеграционное тестирование и релиз --------------------
+[Интеграционное тестирование] as [INT] lasts 4 weeks and is colored in #D8B4FE
+[INT] starts at [TEST_SVC]'s end
+[INT] starts at [TEST_CC]'s end
+[INT] starts at [TEST_PART]'s end
+
+[Релиз MVP] happens at [INT]'s end and is colored in #7C3AED
+
+legend right
+|= Цвет |= Тип |
+|<#DDD6FE>| Разработка |
+|<#C4B5FD>| API/Мониторинг |
+|<#E9D5FF>| Партнёр/интеграции |
+|<#D8B4FE>| Тестирование |
+|<#EDE9FE>| Аналитика/Документация |
+|<#FFF4E6>| Фон дорожки |
+endlegend
+@endgantt

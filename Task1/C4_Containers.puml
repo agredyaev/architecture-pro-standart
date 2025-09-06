@@ -1,0 +1,62 @@
+@startuml
+!include <C4/C4_Container>
+
+title Диаграмма контейнеров (C4 Level 2) для IT-системы банка "Стандарт"
+
+' --- Пользователи и внешние системы ---
+Person(client, "Клиент", "Физическое лицо, использующее продукты банка")
+Person(front_office, "Сотрудник фронт-офиса")
+Person(back_office_depo, "Сотрудник бэк-офиса (депозиты)")
+Person(back_office_credit, "Сотрудник бэк-офиса (кредиты)")
+Person(call_center, "Оператор кол-центра")
+Person(credit_dept, "Сотрудник кредитного отдела")
+
+System_Ext(bki, "Бюро кредитных историй", "Поставщик кредитной истории")
+System_Ext(telecom, "Телеком-оператор", "Поставщик услуг СМС")
+System_Ext(partner_cc, "Партнёрский кол-центр")
+
+' --- Граница основной системы ---
+System_Boundary(bank_system, "IT-система банка 'Стандарт'") {
+    Container(website, "Сайт", "PHP, React.js", "Маркетинговая информация и подача заявок")
+    Container(ib, "Интернет-банк", "ASP.NET MVC, MS SQL", "Система ДБО для клиентов")
+    Container(cc_system, "Система кол-центра", "Java, React, PostgreSQL", "CRM-система для обработки звонков")
+    Container(credit_conveyor, "Кредитный конвейер", "Java, Camunda, Oracle", "BPM-система для обработки кредитных заявок")
+    Container(scoring_system, "Система скоринга", "Python, Flask, PostgreSQL", "Сервис для оценки кредитоспособности")
+    Container(sms_gateway, "СМС-шлюз", "Внутренний компонент", "Отправка СМС-уведомлений")
+    
+    ' АБС как контейнер, состоящий из двух частей
+    Container_Boundary(abs_boundary, "АБС") {
+        Container(abs_app, "Приложение АБС", "Delphi, PL/SQL", "Бизнес-логика и GUI")
+        ContainerDb(abs_db, "База данных АБС", "Oracle", "Хранение данных")
+    }
+}
+
+' --- Связи ---
+
+' Клиентские взаимодействия
+Rel(client, website, "Подает заявки, просматривает информацию", "HTTPS")
+Rel(client, ib, "Управляет счетами и продуктами", "HTTPS")
+
+' Взаимодействия сотрудников
+Rel(front_office, abs_app, "Работает с заявками и договорами")
+Rel(back_office_depo, abs_app, "Обрабатывает депозитные заявки")
+Rel(back_office_credit, credit_conveyor, "Обрабатывает кредитные заявки", "HTTPS")
+Rel(call_center, cc_system, "Регистрирует обращения", "HTTPS")
+Rel(credit_dept, abs_app, "Анализирует данные клиента")
+' Rel(credit_dept, back_office_depo, "Передает ставки", "Email / Excel") ' Эта связь является ручным процессом и не должна быть на диаграмме контейнеров
+
+' Межсистемные взаимодействия (внутри банка)
+Rel(website, cc_system, "Передает заявки", "REST API")
+Rel(ib, abs_db, "Читает/пишет напрямую в таблицы", "SQL", "Критический риск!")
+Rel(cc_system, abs_db, "Передает данные обращения", "DB Link / Stored Procedure")
+Rel(abs_db, credit_conveyor, "Выгружает заявки (раз в сутки)", "DB Link")
+Rel(abs_db, scoring_system, "Выгружает данные для модели (раз в сутки)", "ETL")
+Rel(credit_conveyor, scoring_system, "Запрашивает скоринг", "REST API")
+Rel(scoring_system, abs_db, "Запрашивает доп. данные", "SQL")
+Rel(abs_app, sms_gateway, "Инициирует отправку СМС")
+
+' Взаимодействия с внешними системами
+Rel(scoring_system, bki, "Запрашивает кредитную историю", "REST API")
+Rel(sms_gateway, telecom, "Отправляет СМС", "SMPP")
+
+@enduml

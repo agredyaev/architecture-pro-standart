@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="891px" preserveAspectRatio="none" style="width:4812px;height:891px;background:#FFFFFF;" version="1.1" viewBox="0 0 4812 891" width="4812px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="35.6094" style="stroke:#FFFFFF;stroke-width:0.0;" width="738" x="2032.5" y="10"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="728" x="2037.5" y="35.4209">Схема интеграции приложений банка "Стандарт" (AS-IS)</text><!--MD5=[d9e2a03d0410b0d01542e0c7681a4496]
+cluster Участники--><g id="cluster_Участники"><path d="M2856.5,59.2979 L2990.5,59.2979 A3.75,3.75 0 0 1 2993,61.7979 L3000,90.9072 L3848.5,90.9072 A2.5,2.5 0 0 1 3851,93.4072 L3851,426.7979 A2.5,2.5 0 0 1 3848.5,429.2979 L2856.5,429.2979 A2.5,2.5 0 0 1 2854,426.7979 L2854,61.7979 A2.5,2.5 0 0 1 2856.5,59.2979 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="2854" x2="3000" y1="90.9072" y2="90.9072"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="133" x="2858" y="81.7188">Участники</text></g><!--MD5=[ee79bee1248292726cb7b71addebadcd]
+cluster Ручные процессы--><g id="cluster_Ручные процессы"><path d="M4537.5,271.2979 L4764.5,271.2979 A3.75,3.75 0 0 1 4767,273.7979 L4774,302.9072 L4802.5,302.9072 A2.5,2.5 0 0 1 4805,305.4072 L4805,419.7979 A2.5,2.5 0 0 1 4802.5,422.2979 L4537.5,422.2979 A2.5,2.5 0 0 1 4535,419.7979 L4535,273.7979 A2.5,2.5 0 0 1 4537.5,271.2979 " fill="#D3D3D3" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="4535" x2="4774" y1="302.9072" y2="302.9072"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="226" x="4539" y="293.7188">Ручные процессы</text></g><!--MD5=[b6ae6bad577d6840567e053ddf0b1a80]
+cluster Системы банка 'Стандарт'--><g id="cluster_Системы банка 'Стандарт'"><path d="M878.5,271.2979 L1215.5,271.2979 A3.75,3.75 0 0 1 1218,273.7979 L1225,302.9072 L2827.5,302.9072 A2.5,2.5 0 0 1 2830,305.4072 L2830,881.7979 A2.5,2.5 0 0 1 2827.5,884.2979 L878.5,884.2979 A2.5,2.5 0 0 1 876,881.7979 L876,273.7979 A2.5,2.5 0 0 1 878.5,271.2979 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="876" x2="1225" y1="302.9072" y2="302.9072"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="336" x="880" y="293.7188">Системы банка 'Стандарт'</text></g><!--MD5=[c92432ea3d28a013dcef14eab14af41f]
+cluster Внешние системы--><g id="cluster_Внешние системы"><path d="M13.5,733.2979 L244.5,733.2979 A3.75,3.75 0 0 1 247,735.7979 L254,764.9072 L849.5,764.9072 A2.5,2.5 0 0 1 852,767.4072 L852,881.7979 A2.5,2.5 0 0 1 849.5,884.2979 L13.5,884.2979 A2.5,2.5 0 0 1 11,881.7979 L11,735.7979 A2.5,2.5 0 0 1 13.5,733.2979 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="11" x2="254" y1="764.9072" y2="764.9072"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="230" x="15" y="755.7188">Внешние системы</text></g><!--MD5=[0ba5ee7700168656dc1b457c6fe9fdac]
+entity Client--><g id="elem_Client"><ellipse cx="2898" cy="140.2979" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M2898,148.2979 L2898,175.2979 M2885,156.2979 L2911,156.2979 M2898,175.2979 L2885,190.2979 M2898,175.2979 L2911,190.2979 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="55" x="2870.5" y="205.293">Клиент</text></g><!--MD5=[63cbd9f86bae9335d8498bbf3e7ac06a]
+entity FrontOffice--><g id="elem_FrontOffice"><ellipse cx="3053" cy="140.2979" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M3053,148.2979 L3053,175.2979 M3040,156.2979 L3066,156.2979 M3053,175.2979 L3040,190.2979 M3053,175.2979 L3066,190.2979 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="185" x="2960.5" y="205.293">Сотрудник фронт-офиса</text></g><!--MD5=[fa442803ba3e127ebb8a4808b41504f6]
+entity BackOfficeDepo--><g id="elem_BackOfficeDepo"><ellipse cx="2995" cy="345.2979" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M2995,353.2979 L2995,380.2979 M2982,361.2979 L3008,361.2979 M2995,380.2979 L2982,395.2979 M2995,380.2979 L3008,395.2979 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="249" x="2870.5" y="410.293">Сотрудник бэк-офиса (депозиты)</text></g><!--MD5=[57d7654dc5228a2939c7582559c8baf6]
+entity BackOfficeCredit--><g id="elem_BackOfficeCredit"><ellipse cx="3498" cy="140.2979" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M3498,148.2979 L3498,175.2979 M3485,156.2979 L3511,156.2979 M3498,175.2979 L3485,190.2979 M3498,175.2979 L3511,190.2979 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="240" x="3378" y="205.293">Сотрудник бэк-офиса (кредиты)</text></g><!--MD5=[99fde0896fc47332bb52fba20e150c23]
+entity CallCenterAgent--><g id="elem_CallCenterAgent"><ellipse cx="3262" cy="140.2979" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M3262,148.2979 L3262,175.2979 M3249,156.2979 L3275,156.2979 M3262,175.2979 L3249,190.2979 M3262,175.2979 L3275,190.2979 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="162" x="3181" y="205.293">Оператор кол-центра</text></g><!--MD5=[708a9eea4b2808f79dcdb6b89c0da0b3]
+entity CreditDept--><g id="elem_CreditDept"><ellipse cx="3744" cy="140.2979" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M3744,148.2979 L3744,175.2979 M3731,156.2979 L3757,156.2979 M3744,175.2979 L3731,190.2979 M3744,175.2979 L3757,190.2979 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="182" x="3653" y="205.293">Сотрудник кред. отдела</text></g><!--MD5=[3a45f39fe2ff7ba710147a9a8e3b810b]
+entity ExcelRates--><g id="elem_ExcelRates"><rect fill="#FFFFFF" height="62.5938" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="237" x="4551.5" y="343.2979"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="4768.5" y="348.2979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="4766.5" y="350.2979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="4766.5" y="354.2979"/><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="67" x="4631.5" y="376.293">«Manual»</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="197" x="4566.5" y="392.5898">Excel-файл расчета ставок</text></g><!--MD5=[267c1c121543e29b214c7e2be8e6d7c3]
+entity Website--><g id="elem_Website"><rect fill="#FFFFFF" height="46.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="76" x="2099" y="565.7979"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="2155" y="570.7979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="2153" y="572.7979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="2153" y="576.7979"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="36" x="2114" y="598.793">Сайт</text></g><!--MD5=[6f15a9fb2ab477d152447bf4b269f8d2]
+entity InternetBank--><g id="elem_InternetBank"><rect fill="#FFFFFF" height="62.5938" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="152" x="1742" y="343.2979"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="1874" y="348.2979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="1872" y="350.2979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="1872" y="354.2979"/><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="69" x="1778.5" y="376.293">«Vendor»</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="112" x="1757" y="392.5898">Интернет-банк</text></g><!--MD5=[2e46def9355528438d57ef88eefe0bd1]
+entity ABS--><g id="elem_ABS"><rect fill="#FFFFFF" height="46.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="69" x="1916.5" y="565.7979"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="1965.5" y="570.7979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="1963.5" y="572.7979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="1963.5" y="576.7979"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="29" x="1931.5" y="598.793">АБС</text></g><!--MD5=[417587704d448349b0d2ea493ca7f95a]
+entity CallCenterSystem--><g id="elem_CallCenterSystem"><rect fill="#FFFFFF" height="62.5938" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="192" x="2622" y="557.2979"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="2794" y="562.2979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="2792" y="564.2979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="2792" y="568.2979"/><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="69" x="2678.5" y="590.293">«Vendor»</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="152" x="2637" y="606.5898">Система кол-центра</text></g><!--MD5=[361c532eeb5b3c206a5be24a592497f7]
+entity CreditConveyor--><g id="elem_CreditConveyor"><rect fill="#FFFFFF" height="62.5938" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="199" x="2306.5" y="805.2979"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="2485.5" y="810.2979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="2483.5" y="812.2979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="2483.5" y="816.2979"/><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="69" x="2366.5" y="838.293">«Vendor»</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="159" x="2321.5" y="854.5898">Кредитный конвейер</text></g><!--MD5=[400bc3a27aba60afee78da53accd1d92]
+entity ScoringSystem--><g id="elem_ScoringSystem"><rect fill="#FFFFFF" height="46.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="174" x="1744" y="813.7979"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="1898" y="818.7979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="1896" y="820.7979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="1896" y="824.7979"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="134" x="1759" y="846.793">Система скоринга</text></g><!--MD5=[03905f39b70258b9398ec6f41d3f83e8]
+entity BKI--><g id="elem_BKI"><rect fill="#FFFFFF" height="46.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="231" x="605.5" y="813.7979"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="816.5" y="818.7979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="814.5" y="820.7979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="814.5" y="824.7979"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="191" x="620.5" y="846.793">Бюро кредитных историй</text></g><!--MD5=[9f20a813fe172b4dc4e1a32380c60d20]
+entity Telecom--><g id="elem_Telecom"><rect fill="#FFFFFF" height="46.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="272" x="298" y="813.7979"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="550" y="818.7979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="548" y="820.7979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="548" y="824.7979"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="232" x="313" y="846.793">Телеком-оператор (СМС-шлюз)</text></g><!--MD5=[2434af32be3e6562239b8a706c471ecd]
+entity PartnerCCSystem--><g id="elem_PartnerCCSystem"><rect fill="#FFFFFF" height="62.5938" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="235" x="27.5" y="805.2979"/><rect fill="#FFFFFF" height="10" style="stroke:#000000;stroke-width:1.0;" width="15" x="242.5" y="810.2979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="240.5" y="812.2979"/><rect fill="#FFFFFF" height="2" style="stroke:#000000;stroke-width:1.0;" width="4" x="240.5" y="816.2979"/><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="74" x="103" y="838.293">«External»</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="195" x="42.5" y="854.5898">Система партнёрского КЦ</text></g><!--MD5=[0cfd43fd9b9fca3f1bd97e48f017abfd]
+link Client to Website--><g id="link_Client_Website"><path d="M2925.87,198.1179 C2931.21,202.1179 2937.02,205.7379 2943,208.2979 C3042.33,250.7679 3354.06,182.7079 3426,263.2979 C3477.5,320.9879 3480.52,382.4479 3426,437.2979 C3413.03,450.3479 2113.97,432.2479 2101,445.2979 C2070.18,476.2979 2096.73,529.6179 2117.67,561.5079 " fill="none" id="Client-to-Website" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="2120.45,565.6679,2118.7628,555.9646,2117.6666,561.5142,2112.117,560.418,2120.45,565.6679" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="264" x="3466" y="379.3647">Просмотр информации, подача заявки</text></g><!--MD5=[347a393c53669542c65983b8b30b3426]
+link Client to InternetBank--><g id="link_Client_InternetBank"><path d="M2870.49,175.9679 C2733.46,201.7279 2122.28,316.6079 1899.55,358.4679 " fill="none" id="Client-to-InternetBank" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="1894.36,359.4479,1903.9398,361.7342,1899.2757,358.5333,1902.4765,353.8692,1894.36,359.4479" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="284" x="2518" y="251.3647">Проведение платежей, открытие счетов</text></g><!--MD5=[55a9bdfdf823a9cc00f2c905ca4e09c6]
+link FrontOffice to ABS--><g id="link_FrontOffice_ABS"><path d="M3140.71,208.3479 C3151.61,216.6379 3161.27,226.5479 3168,238.2979 C3176.18,252.5879 3215.24,370.7479 3137,437.2979 C3114.59,456.3579 2104.8,433.1679 2078,445.2979 C2071.05,448.4479 2008.29,520.9079 1973.68,561.2579 " fill="none" id="FrontOffice-to-ABS" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="1970.01,565.5379,1978.912,561.3243,1973.271,561.7476,1972.8477,556.1066,1970.01,565.5379" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="226" x="3185" y="379.3647">Работа с заявками и договорами</text></g><!--MD5=[e61424f4af9b99dd04a587cc599f581b]
+link BackOfficeDepo to ABS--><g id="link_BackOfficeDepo_ABS"><path d="M2911.4,413.4179 C2885.81,423.1579 2857.21,432.3079 2830,437.2979 C2812.4,440.5279 1554.61,432.6079 1542,445.2979 C1516.31,471.1479 1518.19,499.7079 1542,527.2979 C1589.52,582.3679 1818.14,588.1579 1911.33,588.1879 " fill="none" id="BackOfficeDepo-to-ABS" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="1916.47,588.1779,1907.47,584.1779,1911.47,588.1779,1907.47,592.1779,1916.47,588.1779" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="227" x="1543" y="490.8647">Работа с заявками по депозитам</text></g><!--MD5=[e61424f4af9b99dd04a587cc599f581b]
+link BackOfficeDepo to ABS--><g id="link_BackOfficeDepo_ABS"><path d="M2911.4,413.3879 C2885.8,423.1279 2857.21,432.2879 2830,437.2979 C2815.89,439.8979 1807.11,435.1179 1797,445.2979 C1771.33,471.1679 1776.48,497.1779 1797,527.2979 C1822.36,564.5179 1874.43,578.8379 1910.97,584.3479 " fill="none" id="BackOfficeDepo-to-ABS-1" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="1916.24,585.0979,1907.8898,579.8754,1911.2894,584.3968,1906.768,587.7964,1916.24,585.0979" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="199" x="1798" y="490.8647">Ручной ввод ставки в заявку</text></g><!--MD5=[4a0110542ae45ee2a8b22efb7c61561b]
+link BackOfficeCredit to CreditConveyor--><g id="link_BackOfficeCredit_CreditConveyor"><path d="M3618.19,204.5079 C3624.2,205.8579 3630.16,207.1379 3636,208.2979 C3730.05,227.0279 4000.66,191.2979 4064,263.2979 C4115.08,321.3579 4118.57,382.4979 4064,437.2979 C4045.75,455.6279 2220.25,426.9679 2202,445.2979 C2176.29,471.1279 2176.85,500.9179 2202,527.2979 C2250.36,578.0179 2783.64,506.5779 2832,557.2979 C2945.1,675.9179 2670.67,768.8479 2510.9,811.0479 " fill="none" id="BackOfficeCredit-to-CreditConveyor" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="2505.74,812.4079,2515.4607,813.9914,2510.5761,811.1382,2513.4293,806.2536,2505.74,812.4079" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="206" x="2203" y="490.8647">Обработка кредитных заявок</text></g><!--MD5=[7ee706e93b3da3b104d166745b51c9d5]
+link CallCenterAgent to CallCenterSystem--><g id="link_CallCenterAgent_CallCenterSystem"><path d="M3343.02,203.5479 C3349.05,205.3479 3355.08,206.9679 3361,208.2979 C3520.65,244.3079 3574.71,180.9879 3728,238.2979 C3812.04,269.7179 3825.29,373.6979 3762,437.2979 C3745.99,453.3879 2144.01,429.2079 2128,445.2979 C2102.29,471.1279 2103.58,500.2479 2128,527.2979 C2160.06,562.8079 2456.55,578.6479 2616.61,584.6579 " fill="none" id="CallCenterAgent-to-CallCenterSystem" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="2621.78,584.8479,2612.9347,580.5166,2616.7834,584.6623,2612.6377,588.511,2621.78,584.8479" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="253" x="3802" y="379.3647">Прием звонков, создание обращений</text></g><!--MD5=[6f0bb159c2f5a7f997859edc70d96fdd]
+link InternetBank to ABS--><g id="link_InternetBank_ABS"><path d="M1741.67,375.9379 C1535.46,377.1279 979.01,385.8479 924,445.2979 C899.25,472.0479 899,500.7779 924,527.2979 C958.48,563.8679 1726.65,582.9079 1911.33,586.9679 " fill="none" id="InternetBank-to-ABS" style="stroke:#FF0000;stroke-width:2.0;"/><polygon fill="#FF0000" points="1916.37,587.0779,1907.4638,582.8732,1911.3713,586.9636,1907.2809,590.8711,1916.37,587.0779" style="stroke:#FF0000;stroke-width:2.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="42" x="1113.5" y="458.3647">Риск!</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="139" x="1159.5" y="458.3647">Прямой доступ к БД</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="237" x="1087.5" y="473.4976">(чтение/запись в таблицы счетов)</text><path d="M929,482.5635 L929,522.5635 L1483,522.5635 L1483,492.5635 L1473,482.5635 L929,482.5635 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M1473,482.5635 L1473,492.5635 L1483,492.5635 L1473,482.5635 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="109" x="935" y="499.6304">Безопасность:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="420" x="1048" y="499.6304">Критическая уязвимость (SQL Injection, обход бизнес-логики)</text><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="78" x="935" y="514.7632">Контракт:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="330" x="1017" y="514.7632">Отсутствует, неформализованные SQL-запросы</text></g><!--MD5=[7ce2865fff06723c75ddbe04a69f0c50]
+link ABS to CreditConveyor--><g id="link_ABS_CreditConveyor"><path d="M1985.52,599.0379 C2011.8,605.7779 2048.97,614.6779 2082,620.2979 C2142.82,630.6479 2311.33,609.9479 2358,650.2979 C2400.92,687.4079 2407.96,757.4179 2407.87,800.0079 " fill="none" id="ABS-to-CreditConveyor" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#000000" points="2407.83,805.0579,2411.907,796.0925,2407.8729,800.058,2403.9073,796.0239,2407.83,805.0579" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="308" x="2397" y="680.8647">Пакетная выгрузка заявок (раз в сутки)</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="58" x="2522" y="695.9976">(DB Link)</text></g><!--MD5=[9910db1823493e9c711463140d7a1d4f]
+link ABS to ScoringSystem--><g id="link_ABS_ScoringSystem"><path d="M1946.32,612.2179 C1940.38,638.2979 1928.85,682.2479 1912,717.2979 C1895.73,751.1279 1870.57,786.1679 1852.61,809.2879 " fill="none" id="ABS-to-ScoringSystem" style="stroke:#000000;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#000000" points="1849.34,813.4679,1858.0368,808.8455,1852.4215,809.5303,1851.7368,803.9151,1849.34,813.4679" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="413" x="1936" y="680.8647">Пакетная выгрузка данных для модели (раз в сутки)</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="32" x="2126.5" y="695.9976">(ETL)</text></g><!--MD5=[28c4d27c05a6e86e65fb4404c992070e]
+link ScoringSystem to ABS--><g id="link_ScoringSystem_ABS"><path d="M1797.3,813.6179 C1747.36,778.0279 1664.1,706.4679 1708,650.2979 C1732.8,618.5579 1849,601.0679 1911.3,593.8279 " fill="none" id="ScoringSystem-to-ABS" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="1916.43,593.2479,1907.0311,590.3048,1911.4629,593.8204,1907.9473,598.2522,1916.43,593.2479" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="198" x="1709" y="663.3647">Запрос доп. данных клиента</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="150" x="1733" y="678.4976">(синхронный REST API)</text><path d="M1715,687.5635 L1715,712.5635 L1901,712.5635 L1901,697.5635 L1891,687.5635 L1715,687.5635 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M1891,687.5635 L1891,697.5635 L1901,697.5635 L1891,687.5635 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="109" x="1721" y="704.6304">Безопасность:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="52" x="1834" y="704.6304">TLS, JWT</text></g><!--MD5=[b7d634de11afcc5319183ac0c1bce970]
+link Website to CallCenterSystem--><g id="link_Website_CallCenterSystem"><path d="M2175.12,588.7979 C2263.73,588.7979 2485.97,588.7979 2616.99,588.7979 " fill="none" id="Website-to-CallCenterSystem" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="2622,588.7979,2613,584.7979,2617,588.7979,2613,592.7979,2622,588.7979" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="228" x="2284.5" y="566.8647">Передача данных заявки с сайта</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="142" x="2327.5" y="581.9976">(REST API, JSON/HTTP)</text></g><!--MD5=[057aeb23b00ced529f2cd221ed8691af]
+link CallCenterSystem to ABS--><g id="link_CallCenterSystem_ABS"><path d="M2704.29,557.0479 C2689.13,526.4279 2661.51,481.9179 2622,462.2979 C2508.52,405.9579 2116.74,531.8979 1990.52,574.9979 " fill="none" id="CallCenterSystem-to-ABS" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="1985.79,576.6179,1995.5989,577.5046,1990.5233,575.0068,1993.0212,569.9313,1985.79,576.6179" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="202" x="2419" y="458.3647">Передача данных обращения</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="126" x="2457" y="473.4976">(ID клиента, тема)</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="142" x="2449" y="488.6304">(REST API, JSON/HTTP)</text><path d="M2441.5,497.6963 L2441.5,522.6963 L2598.5,522.6963 L2598.5,507.6963 L2588.5,497.6963 L2441.5,497.6963 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M2588.5,497.6963 L2588.5,507.6963 L2598.5,507.6963 L2588.5,497.6963 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="109" x="2447.5" y="514.7632">Безопасность:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="23" x="2560.5" y="514.7632">TLS</text></g><!--MD5=[a40a1a67852079e80cc6d36b53b5609c]
+link ABS to Telecom--><g id="link_ABS_Telecom"><path d="M1916.3,590.8279 C1729.48,596.7079 842.34,629.3479 588,725.2979 C537.91,744.1979 489.29,783.7079 460.5,809.9879 " fill="none" id="ABS-to-Telecom" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="456.74,813.4479,466.0679,810.2871,460.4157,810.0582,460.6445,804.406,456.74,813.4479" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="169" x="973" y="680.8647">Запрос на отправку СМС</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="46" x="1034.5" y="695.9976">(SMPP)</text></g><!--MD5=[d47594324790854c547c72a71995c5b9]
+link CreditConveyor to ScoringSystem--><g id="link_CreditConveyor_ScoringSystem"><path d="M2306.12,836.7979 C2198.31,836.7979 2028.02,836.7979 1923.27,836.7979 " fill="none" id="CreditConveyor-to-ScoringSystem" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="1918.02,836.7979,1927.02,840.7979,1923.02,836.7979,1927.02,832.7979,1918.02,836.7979" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="185" x="2019.75" y="764.8647">Запрос скоринга по заявке</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="150" x="2037.25" y="779.9976">(синхронный REST API)</text><path d="M2019.25,789.0635 L2019.25,829.0635 L2205.25,829.0635 L2205.25,799.0635 L2195.25,789.0635 L2019.25,789.0635 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M2195.25,789.0635 L2195.25,799.0635 L2205.25,799.0635 L2195.25,789.0635 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="109" x="2025.25" y="806.1304">Безопасность:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="52" x="2138.25" y="806.1304">TLS, JWT</text><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="78" x="2025.25" y="821.2632">Контракт:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="54" x="2107.25" y="821.2632">OpenAPI</text></g><!--MD5=[47c2efe4122b6edd96ec6b55b89355e3]
+link ScoringSystem to BKI--><g id="link_ScoringSystem_BKI"><path d="M1743.94,836.7979 C1547.1,836.7979 1067.44,836.7979 841.93,836.7979 " fill="none" id="ScoringSystem-to-BKI" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="836.65,836.7979,845.65,840.7979,841.65,836.7979,845.65,832.7979,836.65,836.7979" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="187" x="1196.75" y="764.8647">Запрос кредитной истории</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="129" x="1225.75" y="779.9976">(внешний REST API)</text><path d="M1171.75,789.0635 L1171.75,829.0635 L1408.75,829.0635 L1408.75,799.0635 L1398.75,789.0635 L1171.75,789.0635 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M1398.75,789.0635 L1398.75,799.0635 L1408.75,799.0635 L1398.75,789.0635 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="109" x="1177.75" y="806.1304">Безопасность:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="23" x="1290.75" y="806.1304">TLS</text><text fill="#000000" font-family="Verdana" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="78" x="1177.75" y="821.2632">Контракт:</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="134" x="1259.75" y="821.2632">Спецификация БКИ</text></g><!--MD5=[4546916a33c26ad9c102d7661567819a]
+link CreditDept to ABS--><g id="link_CreditDept_ABS"><path d="M3835.37,172.4179 C3944.49,176.5179 4117.43,190.5779 4158,238.2979 C4185.83,271.0379 4334.95,271.3779 4064,437.2979 C4044.49,449.2479 2436.6,433.5079 2417,445.2979 C2381.56,466.6179 2407.36,504.2679 2373,527.2979 C2319,563.4979 2146.12,546.5679 2082,557.2979 C2051.02,562.4779 2016.42,570.6379 1990.56,577.2179 " fill="none" id="CreditDept-to-ABS" style="stroke:#FFA500;stroke-width:2.0;"/><polygon fill="#FFA500" points="1985.51,578.5079,1995.2207,580.1519,1990.3539,577.2684,1993.2375,572.4016,1985.51,578.5079" style="stroke:#FFA500;stroke-width:2.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="294" x="4224" y="379.3647">Ручной анализ данных клиента (через GUI)</text></g><!--MD5=[7fb1b9013f3891cb6a061a7a4fda4ee8]
+link CreditDept to ExcelRates--><g id="link_CreditDept_ExcelRates"><path d="M3835.09,175.6079 C4013.16,185.9879 4400.75,213.6479 4524,263.2979 C4566.86,280.5679 4608.11,313.8479 4635.77,339.3879 " fill="none" id="CreditDept-to-ExcelRates" style="stroke:#FFA500;stroke-width:2.0;"/><polygon fill="#FFA500" points="4639.75,343.0979,4635.901,334.0322,4636.0952,339.6858,4630.4417,339.8799,4639.75,343.0979" style="stroke:#FFA500;stroke-width:2.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="151" x="4491" y="251.3647">Ручной расчет ставок</text></g><!--MD5=[c7ac733feed7a0a303f4b89a8c531b15]
+link ExcelRates to BackOfficeDepo--><g id="link_ExcelRates_BackOfficeDepo"><path d="M4639.53,343.1179 C4612.12,317.0979 4569.31,282.1779 4524,267.2979 C4451.32,243.4279 3219.91,244.1179 3147,267.2979 C3106.34,280.2279 3067.19,308.4079 3038.82,332.6679 " fill="none" id="ExcelRates-to-BackOfficeDepo" style="stroke:#FFA500;stroke-width:2.0;"/><polygon fill="#FFA500" points="3034.71,336.2179,3044.1412,333.3802,3038.5002,332.9568,3038.9236,327.3158,3034.71,336.2179" style="stroke:#FFA500;stroke-width:2.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="126" x="3593" y="251.3647">Передача по Email</text></g><!--MD5=[f94a5a3998506f25614b41df19d9ddc2]
+link FrontOffice to BackOfficeDepo--><g id="link_FrontOffice_BackOfficeDepo"><path d="M3019.21,208.5279 C3012.73,217.6979 3006.78,227.8779 3003,238.2979 C2992.21,268.0179 2990.53,303.7979 2991.38,331.1279 " fill="none" id="FrontOffice-to-BackOfficeDepo" style="stroke:#FFA500;stroke-width:2.0;"/><polygon fill="#FFA500" points="2991.57,336.1279,2995.2332,326.9856,2991.3844,331.1313,2987.2387,327.2825,2991.57,336.1279" style="stroke:#FFA500;stroke-width:2.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="159" x="3004" y="251.3647">Запрос ставки по Email</text></g><!--MD5=[962f5c1c7c7e016e4a26a5006287b003]
+@startuml
+!theme plain
+title Схема интеграции приложений банка "Стандарт" (AS-IS)
+
+package "Участники" {
+  actor "Клиент" as Client
+  actor "Сотрудник фронт-офиса" as FrontOffice
+  actor "Сотрудник бэк-офиса (депозиты)" as BackOfficeDepo
+  actor "Сотрудник бэк-офиса (кредиты)" as BackOfficeCredit
+  actor "Оператор кол-центра" as CallCenterAgent
+  actor "Сотрудник кред. отдела" as CreditDept
+}
+
+package "Ручные процессы" #LightGrey {
+  component "Excel-файл расчета ставок" as ExcelRates <<Manual>>
+}
+
+package "Системы банка 'Стандарт'" {
+  component "Сайт" as Website
+  component "Интернет-банк" as InternetBank <<Vendor>>
+  component "АБС" as ABS
+  component "Система кол-центра" as CallCenterSystem <<Vendor>>
+  component "Кредитный конвейер" as CreditConveyor <<Vendor>>
+  component "Система скоринга" as ScoringSystem
+}
+
+package "Внешние системы" {
+  component "Бюро кредитных историй" as BKI
+  component "Телеком-оператор (СМС-шлюз)" as Telecom
+  component "Система партнёрского КЦ" as PartnerCCSystem <<External>>
+}
+
+' - - - Связи участников с системами - - -
+Client - -> Website : Просмотр информации, подача заявки
+Client - -> InternetBank : Проведение платежей, открытие счетов
+FrontOffice - -> ABS : Работа с заявками и договорами
+BackOfficeDepo - -> ABS : Работа с заявками по депозитам
+BackOfficeCredit - -> CreditConveyor : Обработка кредитных заявок
+CallCenterAgent - -> CallCenterSystem : Прием звонков, создание обращений
+
+' - - - Связи между системами - - -
+' Проблемная интеграция, выделена цветом
+InternetBank -[#red,bold]-> ABS : **Риск!** Прямой доступ к БД\n(чтение/запись в таблицы счетов)
+note on link
+  **Безопасность:** Критическая уязвимость (SQL Injection, обход бизнес-логики)
+  **Контракт:** Отсутствует, неформализованные SQL-запросы
+end note
+
+' Пакетные интеграции (узкие места)
+ABS ..> CreditConveyor : **Пакетная выгрузка заявок (раз в сутки)**\n(DB Link)
+ABS ..> ScoringSystem : **Пакетная выгрузка данных для модели (раз в сутки)**\n(ETL)
+
+' Стандартные интеграции
+Website -> CallCenterSystem : Передача данных заявки с сайта\n(REST API, JSON/HTTP)
+CallCenterSystem -> ABS : Передача данных обращения\n(ID клиента, тема)\n(REST API, JSON/HTTP)
+note on link
+  **Безопасность:** TLS
+end note
+ABS -> Telecom : Запрос на отправку СМС\n(SMPP)
+CreditConveyor -> ScoringSystem : Запрос скоринга по заявке\n(синхронный REST API)
+note on link
+  **Безопасность:** TLS, JWT
+  **Контракт:** OpenAPI
+end note
+ScoringSystem -> ABS : Запрос доп. данных клиента\n(синхронный REST API)
+note on link
+  **Безопасность:** TLS, JWT
+end note
+ScoringSystem -> BKI : Запрос кредитной истории\n(внешний REST API)
+note on link
+  **Безопасность:** TLS
+  **Контракт:** Спецификация БКИ
+end note
+
+' - - - Ручные процессы (Ключевые "узкие места") - - -
+CreditDept -[#orange,bold].> ABS : Ручной анализ данных клиента (через GUI)
+CreditDept -[#orange,bold].> ExcelRates : Ручной расчет ставок
+ExcelRates -[#orange,bold].> BackOfficeDepo : Передача по Email
+
+' - - - Процесс открытия депозита (Ручные операции) - - -
+FrontOffice -[#orange,bold].> BackOfficeDepo : Запрос ставки по Email
+BackOfficeDepo -> ABS : Ручной ввод ставки в заявку
+
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor black
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+title Схема интеграции приложений банка "Стандарт" (AS-IS)
+
+package "Участники" {
+  actor "Клиент" as Client
+  actor "Сотрудник фронт-офиса" as FrontOffice
+  actor "Сотрудник бэк-офиса (депозиты)" as BackOfficeDepo
+  actor "Сотрудник бэк-офиса (кредиты)" as BackOfficeCredit
+  actor "Оператор кол-центра" as CallCenterAgent
+  actor "Сотрудник кред. отдела" as CreditDept
+}
+
+package "Ручные процессы" #LightGrey {
+  component "Excel-файл расчета ставок" as ExcelRates <<Manual>>
+}
+
+package "Системы банка 'Стандарт'" {
+  component "Сайт" as Website
+  component "Интернет-банк" as InternetBank <<Vendor>>
+  component "АБС" as ABS
+  component "Система кол-центра" as CallCenterSystem <<Vendor>>
+  component "Кредитный конвейер" as CreditConveyor <<Vendor>>
+  component "Система скоринга" as ScoringSystem
+}
+
+package "Внешние системы" {
+  component "Бюро кредитных историй" as BKI
+  component "Телеком-оператор (СМС-шлюз)" as Telecom
+  component "Система партнёрского КЦ" as PartnerCCSystem <<External>>
+}
+
+Client - -> Website : Просмотр информации, подача заявки
+Client - -> InternetBank : Проведение платежей, открытие счетов
+FrontOffice - -> ABS : Работа с заявками и договорами
+BackOfficeDepo - -> ABS : Работа с заявками по депозитам
+BackOfficeCredit - -> CreditConveyor : Обработка кредитных заявок
+CallCenterAgent - -> CallCenterSystem : Прием звонков, создание обращений
+
+InternetBank -[#red,bold]-> ABS : **Риск!** Прямой доступ к БД\n(чтение/запись в таблицы счетов)
+note on link
+  **Безопасность:** Критическая уязвимость (SQL Injection, обход бизнес-логики)
+  **Контракт:** Отсутствует, неформализованные SQL-запросы
+end note
+
+ABS ..> CreditConveyor : **Пакетная выгрузка заявок (раз в сутки)**\n(DB Link)
+ABS ..> ScoringSystem : **Пакетная выгрузка данных для модели (раз в сутки)**\n(ETL)
+
+Website -> CallCenterSystem : Передача данных заявки с сайта\n(REST API, JSON/HTTP)
+CallCenterSystem -> ABS : Передача данных обращения\n(ID клиента, тема)\n(REST API, JSON/HTTP)
+note on link
+  **Безопасность:** TLS
+end note
+ABS -> Telecom : Запрос на отправку СМС\n(SMPP)
+CreditConveyor -> ScoringSystem : Запрос скоринга по заявке\n(синхронный REST API)
+note on link
+  **Безопасность:** TLS, JWT
+  **Контракт:** OpenAPI
+end note
+ScoringSystem -> ABS : Запрос доп. данных клиента\n(синхронный REST API)
+note on link
+  **Безопасность:** TLS, JWT
+end note
+ScoringSystem -> BKI : Запрос кредитной истории\n(внешний REST API)
+note on link
+  **Безопасность:** TLS
+  **Контракт:** Спецификация БКИ
+end note
+
+CreditDept -[#orange,bold].> ABS : Ручной анализ данных клиента (через GUI)
+CreditDept -[#orange,bold].> ExcelRates : Ручной расчет ставок
+ExcelRates -[#orange,bold].> BackOfficeDepo : Передача по Email
+
+FrontOffice -[#orange,bold].> BackOfficeDepo : Запрос ставки по Email
+BackOfficeDepo -> ABS : Ручной ввод ставки в заявку
+
+@enduml
+
+PlantUML version 1.2022.6(Tue Jun 21 17:34:49 GMT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

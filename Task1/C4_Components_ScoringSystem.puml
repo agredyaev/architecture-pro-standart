@@ -1,0 +1,29 @@
+@startuml
+!include <C4/C4_Container>
+!include <C4/C4_Component>
+
+title Диаграмма компонентов (C4 Level 3) для Системы скоринга
+
+Container_Ext(credit_conveyor, "Кредитный конвейер")
+Container_Ext(abs, "АБС")
+System_Ext(bki, "Бюро кредитных историй")
+
+Container_Boundary(scoring, "Система скоринга") {
+    Component(rest_api, "REST API", "Python, FastAPI", "Прием запросов на скоринг, отдача результата")
+    Component(scoring_service, "Сервис скоринга", "Python", "Ядро системы, применение ML-модели для расчета балла")
+    Component(ml_model, "ML Модель", "scikit-learn", "Обученная модель для оценки кредитоспособности")
+    Component(abs_integration, "Модуль интеграции с АБС", "Python", "Получение данных клиента из АБС по API")
+    Component(bki_integration, "Модуль интеграции с БКИ", "Python", "Получение кредитной истории из БКИ по API")
+}
+
+Rel(credit_conveyor, rest_api, "Запрашивает скоринг", "JSON/HTTP")
+Rel(rest_api, scoring_service, "Передает запрос")
+
+Rel(scoring_service, ml_model, "Использует")
+Rel(scoring_service, abs_integration, "Запрашивает данные клиента")
+Rel(scoring_service, bki_integration, "Запрашивает кредитную историю")
+
+Rel(abs_integration, abs, "Получает данные", "REST API")
+Rel(bki_integration, bki, "Получает данные", "REST API")
+
+@enduml
